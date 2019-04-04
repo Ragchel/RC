@@ -70,7 +70,9 @@ recipes.remove(<minecraft:skull:1>);
 recipes.remove(BCS); recipes.remove(T1CS); recipes.remove(T2CS); recipes.remove(T3CS); recipes.remove(T4CS); recipes.remove(T5CS);
 
 recipes.remove(ST1); recipes.remove(ST2); recipes.remove(ST3); recipes.remove(ST4); recipes.remove(ST5); recipes.remove (WoodSeeds); recipes.remove (WaterSeeds); recipes.remove (IceSeeds); recipes.remove (NatureSeeds); recipes.remove (DirtSeeds);
-
+recipes.remove(StoneSeeds); recipes.remove(ZombieSeeds); recipes.remove(NetherSeeds); recipes.remove(PigSeeds); recipes.remove(DyeSeeds); recipes.remove(FireSeeds); recipes.remove(CoalSeeds); recipes.remove(SlimeSeeds);
+recipes.remove(SheepSeeds); recipes.remove(CowSeeds); recipes.remove(ChickenSeeds); recipes.remove(CopperSeeds); recipes.remove(AluminumSeeds); recipes.remove(SulfurSeeds); recipes.remove(SiliconSeeds); recipes.remove(AluminumBrassSeed);
+recipes.remove(ApatiteSeeds); recipes.remove(InfninitySeeds);
 
 /*Crafting*/
 /*Tier 1*/
