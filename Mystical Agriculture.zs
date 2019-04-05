@@ -38,8 +38,7 @@ val NatureSeeds = <mysticalagriculture:nature_seeds>; val DirtSeeds = <mysticala
 val ST2 = <mysticalagriculture:tier2_inferium_seeds>; val NetherSeeds = <mysticalagriculture:nether_seeds>; val PigSeeds = <mysticalagriculture:pig_seeds>; val DyeSeeds = <mysticalagriculture:dye_seeds>;
 val FireSeeds = <mysticalagriculture:fire_seeds>; val CoalSeeds = <mysticalagriculture:coal_seeds>; val SlimeSeeds = <mysticalagriculture:slime_seeds>; val SheepSeeds = <mysticalagriculture:sheep_seeds>;
 val CowSeeds = <mysticalagriculture:cow_seeds>; val ChickenSeeds = <mysticalagriculture:chicken_seeds>; val CopperSeeds = <mysticalagriculture:copper_seeds>; val AluminumSeeds = <mysticalagriculture:aluminum_seeds>;
-val SulfurSeeds = <mysticalagriculture:sulfur_seeds>; val SiliconSeeds = <mysticalagriculture:silicon_seeds>; val AluminumBrassSeeds = <mysticalagriculture:aluminum_brass_seeds>; val ApatiteSeeds = <mysticalagriculture:apatite_seeds>;
-val InfinitySeeds = <mysticalagriculture:grains_of_infinity_seeds>;
+val SulfurSeeds = <mysticalagriculture:sulfur_seeds>; val SiliconSeeds = <mysticalagriculture:silicon_seeds>; val ApatiteSeeds = <mysticalagriculture:apatite_seeds>;
 
 /*Tier 3 Seeds*/
 val ST3 = <mysticalagriculture:tier3_inferium_seeds>; val GoldSeeds = <mysticalagriculture:gold_seeds>; val ObsidianSeeds = <mysticalagriculture:obsidian_seeds>; val RedstoneSeeds = <mysticalagriculture:redstone_seeds>;
@@ -71,8 +70,8 @@ recipes.remove(BCS); recipes.remove(T1CS); recipes.remove(T2CS); recipes.remove(
 
 recipes.remove(ST1); recipes.remove(ST2); recipes.remove(ST3); recipes.remove(ST4); recipes.remove(ST5); recipes.remove (WoodSeeds); recipes.remove (WaterSeeds); recipes.remove (IceSeeds); recipes.remove (NatureSeeds); recipes.remove (DirtSeeds);
 recipes.remove(StoneSeeds); recipes.remove(ZombieSeeds); recipes.remove(NetherSeeds); recipes.remove(PigSeeds); recipes.remove(DyeSeeds); recipes.remove(FireSeeds); recipes.remove(CoalSeeds); recipes.remove(SlimeSeeds);
-recipes.remove(SheepSeeds); recipes.remove(CowSeeds); recipes.remove(ChickenSeeds); recipes.remove(CopperSeeds); recipes.remove(AluminumSeeds); recipes.remove(SulfurSeeds); recipes.remove(SiliconSeeds); recipes.remove(AluminumBrassSeed);
-recipes.remove(ApatiteSeeds); recipes.remove(InfninitySeeds); recipes.remove(GoldSeeds); recipes.remove(ObsidianSeeds); recipes.remove(RedstoneSeeds); recipes.remove(QuartzSeeds); recipes.remove(IronSeeds); recipes.remove(RabbitSeeds);
+recipes.remove(SheepSeeds); recipes.remove(CowSeeds); recipes.remove(ChickenSeeds); recipes.remove(CopperSeeds); recipes.remove(AluminumSeeds); recipes.remove(SulfurSeeds); recipes.remove(SiliconSeeds); recipes.remove(<mysticalagriculture:aluminum_brass_seeds>);
+recipes.remove(ApatiteSeeds); recipes.remove(<mysticalagriculture:grains_of_infinity_seeds>); recipes.remove(GoldSeeds); recipes.remove(ObsidianSeeds); recipes.remove(RedstoneSeeds); recipes.remove(QuartzSeeds); recipes.remove(IronSeeds); recipes.remove(RabbitSeeds);
 recipes.remove(GuardianSeeds); recipes.remove(SkeletonSeeds); recipes.remove(CreeperSeeds); recipes.remove(SpiderSeeds); recipes.remove(SilverSeeds); recipes.remove(BrassSeeds); recipes.remove(BronzeSeeds); recipes.remove(TinSeeds);
 recipes.remove(SaltPeterSeeds); recipes.remove(InvarSeeds); recipes.remove(ElectrumSeeds); recipes.remove(ConstantanSeeds); recipes.remove(NickelSeeds); recipes.remove(SteelSeeds); recipes.remove(LeadSeeds); recipes.remove(KnightSlimeSeeds);
 recipes.remove(BasalzSeeds); recipes.remove(BlitzSeeds); recipes.remove(BlizzSeeds); recipes.remove(ConductiveIronSeeds); recipes.remove(CertusQuartzSeeds); recipes.remove(SkyStoneSeeds); recipes.remove(RedstoneAlloySeeds);
@@ -196,7 +195,7 @@ recipes.addShaped(SiliconSeeds,
 [Pr, ST2, Pr],
 [<refinedstorage:silicon>, Pr, <refinedstorage:silicon>]
 ]);
-recipes.addShaped(AluminumBrassSeeds,
+recipes.addShaped(<mysticalagriculture:aluminum_brass_seeds>,
 [[<tconstruct:ingots:5>, Pr, <tconstruct:ingots:5>],
 [Pr, ST2, Pr],
 [<tconstruct:ingots:5>, Pr, <tconstruct:ingots:5>]
@@ -206,7 +205,7 @@ recipes.addShaped(ApatiteSeeds,
 [Pr, ST2, Pr],
 [<forestry:apatite>, Pr, <forestry:apatite>]
 ]);
-recipes.addShaped(InfinitySeeds,
+recipes.addShaped(<mysticalagriculture:grains_of_infinity_seeds>,
 [[<enderio:item_material:20>, Pr, <enderio:item_material:20>],
 [Pr, ST2, Pr],
 [<enderio:item_material:20>, Pr, <enderio:item_material:20>]
