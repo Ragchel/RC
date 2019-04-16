@@ -1,4 +1,4 @@
-print ("Starting ProjectEX.zs");
+print("Starting ProjectEX.zs");
 
 val Glowstone = <minecraft:glowstone>;
 val DBlock = <minecraft:diamond_block>;
@@ -68,4 +68,4 @@ recipes.addShaped (<projectex:relay:2>,
 [NS, NS, NS]
 ]);
 
-print ("Finished ProjectEX.zs");
+print("Finished ProjectEX.zs");

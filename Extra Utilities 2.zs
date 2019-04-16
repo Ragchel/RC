@@ -1,4 +1,4 @@
-print ("Starting Extra Utilities 2 changes");
+print("Starting Extra Utilities 2.zs");
 
 recipes.remove (<extrautils2:analogcrafter>);
 
@@ -63,3 +63,5 @@ recipes.addShaped(EL,
 recipes.addShapeless(SG*2, [Sand,Glass]);
 
 recipes.addShapeless(CE, [Grass,DOF]);
+
+print("Finished Extra Utilities 2.zs");

@@ -1,1 +1,0 @@
-print ("Waiting on community confirmation");
