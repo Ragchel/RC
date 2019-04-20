@@ -48,8 +48,8 @@ val SkeletonSeeds = <mysticalagriculture:skeleton_seeds>; val CreeperSeeds = <my
 val BrassSeeds = <mysticalagriculture:brass_seeds>; val BronzeSeeds = <mysticalagriculture:bronze_seeds>; val TinSeeds = <mysticalagriculture:tin_seeds>; val SaltPeterSeeds = <mysticalagriculture:saltpeter_seeds>;
 val InvarSeeds = <mysticalagriculture:invar_seeds>; val ElectrumSeeds = <mysticalagriculture:electrum_seeds>;val ConstantanSeeds = <mysticalagriculture:constantan_seeds>; val NickelSeeds = <mysticalagriculture:nickel_seeds>;
 val SteelSeeds = <mysticalagriculture:steel_seeds>; val LeadSeeds = <mysticalagriculture:lead_seeds>; val KnightSlimeSeeds = <mysticalagriculture:knightslime_seeds>; val BasalzSeeds = <mysticalagriculture:basalz_seeds>;
-val BlitzSeeds = <mysticalagriculture:blitz_seeds>; val BlizzSeeds = <mysticalagriculture:blizz_seeds>;  val ConductiveIronSeeds = <mysticalagriculture:conductive_iron_seeds>; val CertusQuartzSeeds = <mysticalagriculture:certus_quartz_seeds>;
-val SkyStoneSeeds = <mysticalagriculture:sky_stone_seeds>; val RedstoneAlloySeeds = <mysticalagriculture:redstone_alloy_seeds>; val ElectricalSteelSeeds = <mysticalagriculture:electrical_steel_seeds>; val ArditeSeeds = <mysticalagriculture:ardite_seeds>;
+val BlitzSeeds = <mysticalagriculture:blitz_seeds>; val BlizzSeeds = <mysticalagriculture:blizz_seeds>;  val ConductiveIronSeeds = <mysticalagriculture:conductive_iron_seeds>; val RedstoneAlloySeeds = <mysticalagriculture:redstone_alloy_seeds>;
+val ElectricalSteelSeeds = <mysticalagriculture:electrical_steel_seeds>; val ArditeSeeds = <mysticalagriculture:ardite_seeds>;
 val BlackQuartzSeeds = <mysticalagriculture:black_quartz_seeds>; val ThaumiumSeeds = <mysticalagriculture:thaumium_seeds>; val QuickSilverSeeds = <mysticalagriculture:quicksilver_seeds>; val QuartzIronSeeds = <mysticalagriculture:quartz_enriched_iron_seeds>;
 
 /*Tier 4 Seeds*/
@@ -57,7 +57,7 @@ val ST4 = <mysticalagriculture:tier4_inferium_seeds>; val EndSeeds = <mysticalag
 val LapisSeeds = <mysticalagriculture:lapis_lazuli_seeds>; val EndermanSeeds = <mysticalagriculture:enderman_seeds>; val GhastSeeds = <mysticalagriculture:ghast_seeds>; val BlazeSeeds = <mysticalagriculture:blaze_seeds>;
 val MithrilSeeds = <mysticalagriculture:mithril_seeds>; val LumiumSeeds = <mysticalagriculture:lumium_seeds>; val SignalumSeeds = <mysticalagriculture:signalum_seeds>; val AmberSeeds = <mysticalagriculture:amber_seeds>;
 val DarkSteelSeeds = <mysticalagriculture:dark_steel_seeds>; val SoulariumSeeds = <mysticalagriculture:soularium_seeds>; val CobaltSeeds = <mysticalagriculture:cobalt_seeds>; val VoidMetalSeeds = <mysticalagriculture:void_metal_seeds>;
-val EnergeticAlloySeeds = <mysticalagriculture:energetic_alloy_seeds>; val PulsatingIronSeeds = <mysticalagriculture:pulsating_iron_seeds>; val FluixSeeds = <mysticalagriculture:fluix_seeds>;
+val EnergeticAlloySeeds = <mysticalagriculture:energetic_alloy_seeds>; val PulsatingIronSeeds = <mysticalagriculture:pulsating_iron_seeds>;
 
 /*Tier 5 Seeds*/
 val ST5 = <mysticalagriculture:tier5_inferium_seeds>; val DiamondSeeds = <mysticalagriculture:diamond_seeds>; val EmeraldSeeds = <mysticalagriculture:emerald_seeds>; val WitherSkeletonSeeds = <mysticalagriculture:wither_skeleton_seeds>;
@@ -347,16 +347,6 @@ recipes.addShaped(ConductiveIronSeeds,
 [[<enderio:item_alloy_ingot:4>, It, <enderio:item_alloy_ingot:4>],
 [It, ST3, It],
 [<enderio:item_alloy_ingot:4>, It, <enderio:item_alloy_ingot:4>]
-]);
-recipes.addShaped(CertusQuartzSeeds,
-[[<appliedenergistics2:material>, It, <appliedenergistics2:material>],
-[It, ST3, It],
-[<appliedenergistics2:material>, It, <appliedenergistics2:material>]
-]);
-recipes.addShaped(SkyStoneSeeds,
-[[<appliedenergistics2:sky_stone_block>, It, <appliedenergistics2:sky_stone_block>],
-[It, ST3, It],
-[<appliedenergistics2:sky_stone_block>, It, <appliedenergistics2:sky_stone_block>]
 ]);
 recipes.addShaped(RedstoneAlloySeeds,
 [[<enderio:item_alloy_ingot:3>, It, <enderio:item_alloy_ingot:3>],
