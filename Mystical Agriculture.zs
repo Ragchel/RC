@@ -49,8 +49,8 @@ val BrassSeeds = <mysticalagriculture:brass_seeds>; val BronzeSeeds = <mysticala
 val InvarSeeds = <mysticalagriculture:invar_seeds>; val ElectrumSeeds = <mysticalagriculture:electrum_seeds>;val ConstantanSeeds = <mysticalagriculture:constantan_seeds>; val NickelSeeds = <mysticalagriculture:nickel_seeds>;
 val SteelSeeds = <mysticalagriculture:steel_seeds>; val LeadSeeds = <mysticalagriculture:lead_seeds>; val KnightSlimeSeeds = <mysticalagriculture:knightslime_seeds>; val BasalzSeeds = <mysticalagriculture:basalz_seeds>;
 val BlitzSeeds = <mysticalagriculture:blitz_seeds>; val BlizzSeeds = <mysticalagriculture:blizz_seeds>;  val ConductiveIronSeeds = <mysticalagriculture:conductive_iron_seeds>; val RedstoneAlloySeeds = <mysticalagriculture:redstone_alloy_seeds>;
-val ElectricalSteelSeeds = <mysticalagriculture:electrical_steel_seeds>; val ArditeSeeds = <mysticalagriculture:ardite_seeds>;
-val BlackQuartzSeeds = <mysticalagriculture:black_quartz_seeds>; val ThaumiumSeeds = <mysticalagriculture:thaumium_seeds>; val QuickSilverSeeds = <mysticalagriculture:quicksilver_seeds>; val QuartzIronSeeds = <mysticalagriculture:quartz_enriched_iron_seeds>;
+val ElectricalSteelSeeds = <mysticalagriculture:electrical_steel_seeds>; val ArditeSeeds = <mysticalagriculture:ardite_seeds>; val BlackQuartzSeeds = <mysticalagriculture:black_quartz_seeds>; val ThaumiumSeeds = <mysticalagriculture:thaumium_seeds>;
+val QuickSilverSeeds = <mysticalagriculture:quicksilver_seeds>; val QuartzIronSeeds = <mysticalagriculture:quartz_enriched_iron_seeds>;
 
 /*Tier 4 Seeds*/
 val ST4 = <mysticalagriculture:tier4_inferium_seeds>; val EndSeeds = <mysticalagriculture:end_seeds>; val GlowstoneSeeds = <mysticalagriculture:glowstone_seeds>; val ExpSeeds = <mysticalagriculture:experience_seeds>;
@@ -75,11 +75,11 @@ recipes.remove(SheepSeeds); recipes.remove(CowSeeds); recipes.remove(ChickenSeed
 recipes.remove(ApatiteSeeds); recipes.remove(<mysticalagriculture:grains_of_infinity_seeds>); recipes.remove(GoldSeeds); recipes.remove(ObsidianSeeds); recipes.remove(RedstoneSeeds); recipes.remove(QuartzSeeds); recipes.remove(IronSeeds); recipes.remove(RabbitSeeds);
 recipes.remove(GuardianSeeds); recipes.remove(SkeletonSeeds); recipes.remove(CreeperSeeds); recipes.remove(SpiderSeeds); recipes.remove(SilverSeeds); recipes.remove(BrassSeeds); recipes.remove(BronzeSeeds); recipes.remove(TinSeeds);
 recipes.remove(SaltPeterSeeds); recipes.remove(InvarSeeds); recipes.remove(ElectrumSeeds); recipes.remove(ConstantanSeeds); recipes.remove(NickelSeeds); recipes.remove(SteelSeeds); recipes.remove(LeadSeeds); recipes.remove(KnightSlimeSeeds);
-recipes.remove(BasalzSeeds); recipes.remove(BlitzSeeds); recipes.remove(BlizzSeeds); recipes.remove(ConductiveIronSeeds); recipes.remove(CertusQuartzSeeds); recipes.remove(SkyStoneSeeds); recipes.remove(RedstoneAlloySeeds);
+recipes.remove(BasalzSeeds); recipes.remove(BlitzSeeds); recipes.remove(BlizzSeeds); recipes.remove(ConductiveIronSeeds); recipes.remove(RedstoneAlloySeeds);
 recipes.remove(ElectricalSteelSeeds); recipes.remove(ArditeSeeds); recipes.remove(BlackQuartzSeeds); recipes.remove(ThaumiumSeeds); recipes.remove(QuickSilverSeeds); recipes.remove(QuartzIronSeeds); recipes.remove(EndSeeds);
 recipes.remove(GlowstoneSeeds); recipes.remove(ExpSeeds); recipes.remove(LapisSeeds); recipes.remove(EndermanSeeds); recipes.remove(GhastSeeds); recipes.remove(BlazeSeeds); recipes.remove(MithrilSeeds); recipes.remove(LumiumSeeds);
 recipes.remove(SignalumSeeds); recipes.remove(AmberSeeds); recipes.remove(DarkSteelSeeds); recipes.remove(SoulariumSeeds); recipes.remove(CobaltSeeds); recipes.remove(VoidMetalSeeds); recipes.remove(EnergeticAlloySeeds);
-recipes.remove(PulsatingIronSeeds); recipes.remove(FluixSeeds); recipes.remove(DiamondSeeds); recipes.remove(EmeraldSeeds); recipes.remove(WitherSkeletonSeeds); recipes.remove(IridiumSeeds); recipes.remove(PlatinumSeeds);
+recipes.remove(PulsatingIronSeeds); recipes.remove(DiamondSeeds); recipes.remove(EmeraldSeeds); recipes.remove(WitherSkeletonSeeds); recipes.remove(IridiumSeeds); recipes.remove(PlatinumSeeds);
 recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(EndSteelSeeds); recipes.remove(VibrantalloySeeds);
 
 /*Crafting*/
@@ -474,11 +474,6 @@ recipes.addShaped(PulsatingIronSeeds,
 [[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>],
 [Su, ST4, Su],
 [<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>]
-]);
-recipes.addShaped(FluixSeeds,
-[[<appliedenergistics2:material:7>, Su, <appliedenergistics2:material:7>],
-[Su, ST4, Su],
-[<appliedenergistics2:material:7>, Su, <appliedenergistics2:material:7>]
 ]);
 
 /*Tier 5*/
