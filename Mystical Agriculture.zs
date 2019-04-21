@@ -1,6 +1,17 @@
 print("Starting Mystical Agriculture.zs");
 /*Vanilla*/
 val Seeds = <minecraft:wheat_seeds>; val Dirt = <minecraft:dirt>; val Ice = <minecraft:ice>; val Water = <minecraft:water_bucket>; val Stone = <minecraft:stone>; val Netherrack = <minecraft:netherrack>; val Coal = <minecraft:coal>; val Lava = <minecraft:lava_bucket>;
+val Emerald = <minecraft:emerald>; val Diamond = <minecraft:diamond>; val GoldIngot = <minecraft:gold_ingot>; val Obsidian = <minecraft:obsidian>; val Quartz = <minecraft:quartz>; val Redstone = <minecraft:redstone>; val IronIngot = <minecraft:iron_ingot>; val Glowstone = <minecraft:glowstone>;
+val Lapis = <minecraft:dye:4>;
+
+/*Modded items*/
+val Apatite = <forestry:apatite>; val Silicon = <refinedstorage:silicon>; val QuartzIron = <refinedstorage:quartz_enriched_iron>; val Brass = <thaumcraft:ingot:2>; val QuickSilver = <thaumcraft:quicksilver>;
+
+/*Thermal Foundation*/
+val Tin = <thermalfoundation:material:129>; val Copper = <thermalfoundation:material:128>; val Silver = <thermalfoundation:material:130>; val Lead = <thermalfoundation:material:131>; val Aluminum = <thermalfoundation:material:132>; val Nickel = <thermalfoundation:material:133>;
+val Platinum = <thermalfoundation:material:134>; val Iridium = <thermalfoundation:material:135>; val Mithril = <thermalfoundation:material:136>;
+val Steel = <thermalfoundation:material:160>; val Electrum = <thermalfoundation:material:161>; val Invar = <thermalfoundation:material:162>; val Bronze = <thermalfoundation:material:163>; val Constantan =  <thermalfoundation:material:164>; val Signalum = <thermalfoundation:material:165>;
+val Lumium = <thermalfoundation:material:166>; val Enderium = <thermalfoundation:material:167>; val Sulfur = <thermalfoundation:material:771>; val SaltPeter = <thermalfoundation:material:772>;
 
 /*Mystical Agriculture*/
 val If = <mysticalagriculture:crafting>; val Pr = <mysticalagriculture:crafting:1>; val It = <mysticalagriculture:crafting:2>; val Su = <mysticalagriculture:crafting:3>;
@@ -177,24 +188,24 @@ recipes.addShaped(ChickenSeeds,
 [ChickenC, Pr, ChickenC]
 ]);
 recipes.addShaped(CopperSeeds,
-[[<thermalfoundation:material:128>, Pr, <thermalfoundation:material:128>],
+[[Copper, Pr, Copper],
 [Pr, ST2, Pr],
-[<thermalfoundation:material:128>, Pr, <thermalfoundation:material:128>]
+[Copper, Pr, Copper]
 ]);
 recipes.addShaped(AluminumSeeds,
-[[<thermalfoundation:material:132>, Pr, <thermalfoundation:material:132>],
+[[Aluminum, Pr, Aluminum],
 [Pr, ST2, Pr],
-[<thermalfoundation:material:132>, Pr, <thermalfoundation:material:132>]
+[Aluminum, Pr, Aluminum]
 ]);
 recipes.addShaped(SulfurSeeds,
-[[<thermalfoundation:material:771>, Pr, <thermalfoundation:material:771>],
+[[Sulfur, Pr, Sulfur],
 [Pr, ST2, Pr],
-[<thermalfoundation:material:771>, Pr, <thermalfoundation:material:771>]
+[Sulfur, Pr, Sulfur]
 ]);
 recipes.addShaped(SiliconSeeds,
-[[<refinedstorage:silicon>, Pr, <refinedstorage:silicon>],
+[[Silicon, Pr, Silicon],
 [Pr, ST2, Pr],
-[<refinedstorage:silicon>, Pr, <refinedstorage:silicon>]
+[Silicon, Pr, Silicon]
 ]);
 recipes.addShaped(<mysticalagriculture:aluminum_brass_seeds>,
 [[<tconstruct:ingots:5>, Pr, <tconstruct:ingots:5>],
@@ -202,9 +213,9 @@ recipes.addShaped(<mysticalagriculture:aluminum_brass_seeds>,
 [<tconstruct:ingots:5>, Pr, <tconstruct:ingots:5>]
 ]);
 recipes.addShaped(ApatiteSeeds,
-[[<forestry:apatite>, Pr, <forestry:apatite>],
+[[Apatite, Pr, Apatite],
 [Pr, ST2, Pr],
-[<forestry:apatite>, Pr, <forestry:apatite>]
+[Apatite, Pr, Apatite]
 ]);
 recipes.addShaped(<mysticalagriculture:grains_of_infinity_seeds>,
 [[<enderio:item_material:20>, Pr, <enderio:item_material:20>],
@@ -219,29 +230,29 @@ recipes.addShaped(ST3,
 [Ps, It, Ps]
 ]);
 recipes.addShaped(GoldSeeds,
-[[<minecraft:gold_ingot>, It, <minecraft:gold_ingot>],
+[[GoldIngot, It, GoldIngot],
 [It, ST3, It],
-[<minecraft:gold_ingot>, It, <minecraft:gold_ingot>]
+[GoldIngot, It, GoldIngot]
 ]);
 recipes.addShaped(ObsidianSeeds,
-[[<minecraft:obsidian>, It, <minecraft:obsidian>],
+[[Obsidian, It, Obsidian],
 [It, ST3, It],
-[<minecraft:obsidian>, It, <minecraft:obsidian>]
+[Obsidian, It, Obsidian]
 ]);
-recipes.addShaped(RedstoneSeeds,
-[[<minecraft:redstone>, It, <minecraft:redstone>],
+recipes.addShaped(RedstoneSeeds, 
+[[Redstone, It, Redstone],
 [It, ST3, It],
-[<minecraft:redstone>, It, <minecraft:redstone>]
+[Redstone, It, Redstone]
 ]);
 recipes.addShaped(QuartzSeeds,
-[[<minecraft:quartz>, It, <minecraft:quartz>],
+[[Quartz, It, Quartz],
 [It, ST3, It],
-[<minecraft:quartz>, It, <minecraft:quartz>]
+[Quartz, It, Quartz]
 ]);
 recipes.addShaped(IronSeeds,
-[[<minecraft:iron_ingot>, It, <minecraft:iron_ingot>],
+[[IronIngot, It, IronIngot],
 [It, ST3, It],
-[<minecraft:iron_ingot>, It, <minecraft:iron_ingot>]
+[IronIngot, It, IronIngot]
 ]);
 recipes.addShaped(RabbitSeeds,
 [[RabbitC, It, RabbitC],
@@ -269,59 +280,59 @@ recipes.addShaped(SpiderSeeds,
 [SpiderC, It, SpiderC]
 ]);
 recipes.addShaped(SilverSeeds,
-[[<thermalfoundation:material:130>, It, <thermalfoundation:material:130>],
+[[Silver, It, Silver],
 [It, ST3, It],
-[<thermalfoundation:material:130>, It, <thermalfoundation:material:130>]
+[Silver, It, Silver]
 ]);
 recipes.addShaped(BrassSeeds,
-[[<thaumcraft:ingot:2>, It, <thaumcraft:ingot:2>],
+[[Brass, It, Brass],
 [It, ST3, It],
-[<thaumcraft:ingot:2>, It, <thaumcraft:ingot:2>]
+[Brass, It, Brass]
 ]);
 recipes.addShaped(BronzeSeeds,
-[[<thermalfoundation:material:163>, It, <thermalfoundation:material:163>],
+[[Bronze, It, Bronze],
 [It, ST3, It],
-[<thermalfoundation:material:163>, It, <thermalfoundation:material:163>]
+[Bronze, It, Bronze]
 ]);
 recipes.addShaped(TinSeeds,
-[[<thermalfoundation:material:129>, It, <thermalfoundation:material:129>],
+[[Tin, It, Tin],
 [It, ST3, It],
-[<thermalfoundation:material:129>, It, <thermalfoundation:material:129>]
+[Tin, It, Tin]
 ]);
 recipes.addShaped(SaltPeterSeeds,
-[[<thermalfoundation:material:772>, It, <thermalfoundation:material:772>],
+[[SaltPeter, It, SaltPeter],
 [It, ST3, It],
-[<thermalfoundation:material:772>, It, <thermalfoundation:material:772>]
+[SaltPeter, It, SaltPeter]
 ]);
 recipes.addShaped(InvarSeeds,
-[[<thermalfoundation:material:162>, It, <thermalfoundation:material:162>],
+[[Invar, It, Invar],
 [It, ST3, It],
-[<thermalfoundation:material:162>, It, <thermalfoundation:material:162>]
+[Invar, It, Invar]
 ]);
 recipes.addShaped(ElectrumSeeds,
-[[<thermalfoundation:material:161>, It, <thermalfoundation:material:161>],
+[[Electrum, It, Electrum],
 [It, ST3, It],
-[<thermalfoundation:material:161>, It, <thermalfoundation:material:161>]
+[Electrum, It, Electrum]
 ]);
 recipes.addShaped(ConstantanSeeds,
-[[<thermalfoundation:material:164>, It, <thermalfoundation:material:164>],
+[[Constantan, It,Constantan],
 [It, ST3, It],
-[<thermalfoundation:material:164>, It, <thermalfoundation:material:164>]
+[Constantan, It, Constantan]
 ]);
 recipes.addShaped(NickelSeeds,
-[[<thermalfoundation:material:133>, It, <thermalfoundation:material:133>],
+[[Nickel, It, Nickel],
 [It, ST3, It],
-[<thermalfoundation:material:133>, It, <thermalfoundation:material:133>]
+[Nickel, It, Nickel]
 ]);
 recipes.addShaped(SteelSeeds,
-[[<thermalfoundation:material:160>, It, <thermalfoundation:material:160>],
+[[Steel, It, Steel],
 [It, ST3, It],
-[<thermalfoundation:material:160>, It, <thermalfoundation:material:160>]
+[Steel, It, Steel]
 ]);
 recipes.addShaped(LeadSeeds,
-[[<thermalfoundation:material:131>, It, <thermalfoundation:material:131>],
+[[Lead, It, Lead],
 [It, ST3, It],
-[<thermalfoundation:material:131>, It, <thermalfoundation:material:131>]
+[Lead, It, Lead]
 ]);
 recipes.addShaped(KnightSlimeSeeds,
 [[<tconstruct:ingots:3>, It, <tconstruct:ingots:3>],
@@ -374,14 +385,14 @@ recipes.addShaped(ThaumiumSeeds,
 [<thaumcraft:ingot>, It, <thaumcraft:ingot>]
 ]);
 recipes.addShaped(QuickSilverSeeds,
-[[<thaumcraft:quicksilver>, It, <thaumcraft:quicksilver>],
+[[QuickSilver, It, QuickSilver],
 [It, ST3, It],
-[<thaumcraft:quicksilver>, It, <thaumcraft:quicksilver>]
+[QuickSilver, It, QuickSilver]
 ]);
 recipes.addShaped(QuartzIronSeeds,
-[[<refinedstorage:quartz_enriched_iron>, It, <refinedstorage:quartz_enriched_iron>],
+[[QuartzIron, It, QuartzIron],
 [It, ST3, It],
-[<refinedstorage:quartz_enriched_iron>, It, <refinedstorage:quartz_enriched_iron>]
+[QuartzIron, It, QuartzIron]
 ]);
 
 /*Tier 4*/
@@ -396,9 +407,9 @@ recipes.addShaped(EndSeeds,
 [<mysticalagriculture:crafting:9>, Su, <mysticalagriculture:crafting:9>]
 ]);
 recipes.addShaped(GlowstoneSeeds,
-[[<minecraft:glowstone>, Su, <minecraft:glowstone>],
+[[Glowstone, Su, Glowstone],
 [Su, ST4, Su],
-[<minecraft:glowstone>, Su, <minecraft:glowstone>]
+[Glowstone, Su, Glowstone]
 ]);
 recipes.addShaped(ExpSeeds,
 [[ExpC, Su, ExpC],
@@ -406,9 +417,9 @@ recipes.addShaped(ExpSeeds,
 [ExpC, Su, ExpC]
 ]);
 recipes.addShaped(LapisSeeds,
-[[<minecraft:dye:4>, Su, <minecraft:dye:4>],
+[[Lapis, Su, Lapis],
 [Su, ST4, Su],
-[<minecraft:dye:4>, Su, <minecraft:dye:4>]
+[Lapis, Su, Lapis]
 ]);
 recipes.addShaped(EndermanSeeds,
 [[EndermanC, Su, EndermanC],
@@ -426,19 +437,19 @@ recipes.addShaped(BlazeSeeds,
 [BlazeC, Su, BlazeC]
 ]);
 recipes.addShaped(MithrilSeeds,
-[[<thermalfoundation:material:136>, Su, <thermalfoundation:material:136>],
+[[Mithril, Su, Mithril],
 [Su, ST4, Su],
-[<thermalfoundation:material:136>, Su, <thermalfoundation:material:136>]
+[Mithril, Su, Mithril]
 ]);
 recipes.addShaped(LumiumSeeds,
-[[<thermalfoundation:material:166>, Su, <thermalfoundation:material:166>],
+[[Lumium, Su, Lumium],
 [Su, ST4, Su],
-[<thermalfoundation:material:166>, Su, <thermalfoundation:material:166>]
+[Lumium, Su, Lumium]
 ]);
 recipes.addShaped(SignalumSeeds,
-[[<thermalfoundation:material:165>, Su, <thermalfoundation:material:165>],
+[[Signalum, Su, Signalum],
 [Su, ST4, Su],
-[<thermalfoundation:material:165>, Su, <thermalfoundation:material:165>]
+[Signalum, Su, Signalum]
 ]);
 recipes.addShaped(AmberSeeds,
 [[<thaumcraft:amber>, Su, <thaumcraft:amber>],
@@ -483,14 +494,14 @@ recipes.addShaped(ST5,
 [Ps, Sr, Ps]
 ]);
 recipes.addShaped(DiamondSeeds,
-[[<minecraft:diamond>, Sr, <minecraft:diamond>],
+[[Diamond, Sr, Diamond],
 [Sr, ST5, Sr],
-[<minecraft:diamond>, Sr, <minecraft:diamond>]
+[Diamond, Sr, Diamond]
 ]);
 recipes.addShaped(EmeraldSeeds,
-[[<minecraft:emerald>, Sr, <minecraft:emerald>],
+[[Emerald, Sr, Emerald],
 [Sr, ST5, Sr],
-[<minecraft:emerald>, Sr, <minecraft:emerald>]
+[Emerald, Sr, Emerald]
 ]);
 recipes.addShaped(WitherSkeletonSeeds,
 [[WitherSkeletonC, Sr, WitherSkeletonC],
@@ -498,19 +509,19 @@ recipes.addShaped(WitherSkeletonSeeds,
 [WitherSkeletonC, Sr, WitherSkeletonC]
 ]);
 recipes.addShaped(IridiumSeeds,
-[[<thermalfoundation:material:135>, Sr, <thermalfoundation:material:135>],
+[[Iridium, Sr, Iridium],
 [Sr, ST5, Sr],
-[<thermalfoundation:material:135>, Sr, <thermalfoundation:material:135>]
+[Iridium, Sr, Iridium]
 ]);
 recipes.addShaped(PlatinumSeeds,
-[[<thermalfoundation:material:134>, Sr, <thermalfoundation:material:134>],
+[[Platinum, Sr, Platinum],
 [Sr, ST5, Sr],
-[<thermalfoundation:material:134>, Sr, <thermalfoundation:material:134>]
+[Platinum, Sr, Platinum]
 ]);
 recipes.addShaped(EnderiumSeeds,
-[[<thermalfoundation:material:167>, Sr, <thermalfoundation:material:167>],
+[[Enderium, Sr, Enderium],
 [Sr, ST5, Sr],
-[<thermalfoundation:material:167>, Sr, <thermalfoundation:material:167>]
+[Enderium, Sr, Enderium]
 ]);
 recipes.addShaped(ManyullynSeeds,
 [[<tconstruct:ingots:2>, Sr, <tconstruct:ingots:2>],

@@ -1,4 +1,4 @@
-print("Start JEI.zs");
+print("Starting JEI.zs");
 
 var categoriesToHide as string[] = [
     "jeresources.enchantment",
