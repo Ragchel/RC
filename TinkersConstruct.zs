@@ -16,9 +16,9 @@ recipes.addShaped(<tconstruct:seared_furnace_controller>,
 ]);
 
 recipes.addShaped(<tconstruct:seared_glass>,
-[[Null, <tconstruct:materials>, Null],
+[[null, <tconstruct:materials>, null],
 [<tconstruct:materials>, <extrautils2:decorativeglass>, <tconstruct:materials>],
-[Null, <tconstruct:materials>, Null],
+[null, <tconstruct:materials>, null],
 ]);
 
 recipes.addShaped(<tconstruct:smeltery_controller>,
