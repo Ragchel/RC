@@ -1,4 +1,4 @@
-print("Starting Mystical Agriculture.zs");
+/*Mystical Agriculture.zs*/
 /*Vanilla*/
 val Seeds = <minecraft:wheat_seeds>; val Dirt = <minecraft:dirt>; val Ice = <minecraft:ice>; val Water = <minecraft:water_bucket>; val Stone = <minecraft:stone>; val Netherrack = <minecraft:netherrack>; val Coal = <minecraft:coal>; val Lava = <minecraft:lava_bucket>;
 val Emerald = <minecraft:emerald>; val Diamond = <minecraft:diamond>; val GoldIngot = <minecraft:gold_ingot>; val Obsidian = <minecraft:obsidian>; val Quartz = <minecraft:quartz>; val Redstone = <minecraft:redstone>; val IronIngot = <minecraft:iron_ingot>; val Glowstone = <minecraft:glowstone>;
@@ -538,5 +538,3 @@ recipes.addShaped(VibrantalloySeeds,
 [Sr, ST5, Sr],
 [<enderio:item_alloy_ingot:2>, Sr, <enderio:item_alloy_ingot:2>]
 ]);
-
-print("Finished Mystical Agriculture.zs");

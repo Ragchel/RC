@@ -1,5 +1,2 @@
-print("Starting EquivalentAdditions.zs");
-
+/*EquivalentAdditions.zs*/
 recipes.remove (<equivadditions:collector_mk4>);
-
-print("Finished EquivalentAdditions.zs");

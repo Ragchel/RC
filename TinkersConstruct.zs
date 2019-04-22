@@ -1,4 +1,4 @@
-print("Starting TinkersConstruct.zs");
+/*TinkersConstruct.zs*/
 
 recipes.remove(<tconstruct:soil>);
 recipes.addShaped (<tconstruct:soil> * 4,
