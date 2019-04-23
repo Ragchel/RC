@@ -2,7 +2,8 @@
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 static removeAndHideIngredients as IIngredient[] = [
-
+	<buildcraftsilicon:plug_facade>,
+	<minecraft:command_block_minecart>,
 ];
 function init() {
 	for ingredient in removeAndHideIngredients {

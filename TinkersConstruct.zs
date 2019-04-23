@@ -45,4 +45,16 @@ recipes.addShaped(<tconstruct:seared_tank:2>,
 [<tconstruct:materials>, <extrautils2:decorativeglass>, <tconstruct:materials>],
 ]);
 
+recipes.addShaped (<tconstruct:casting:1>,
+[[<tconstruct:materials>, null, <tconstruct:materials>],
+[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>],
+[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
+]);
+
+recipes.addShaped (<tconstruct:smeltery_io>,
+[[<tconstruct:materials>, null, <tconstruct:materials>],
+[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>],
+[<tconstruct:materials>, null, <tconstruct:materials>]
+]);
+
 print("Finished TinkersConstruct.zs");
