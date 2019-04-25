@@ -4,6 +4,7 @@ import mods.jei.JEI;
 static removeAndHideIngredients as IIngredient[] = [
 	<buildcraftsilicon:plug_facade>,
 	<minecraft:command_block_minecart>,
+	<openblocks:trophy>,
 ];
 function init() {
 	for ingredient in removeAndHideIngredients {
