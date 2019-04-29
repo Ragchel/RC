@@ -12,10 +12,10 @@ val BlackQuartz = <actuallyadditions:item_misc:5>;
 /*Tconstruct*/
 val Cobalt = <tconstruct:ingots>; val Ardite = <tconstruct:ingots:1>; val Manyullyn = <tconstruct:ingots:2>; val KnightSlime = <tconstruct:ingots:3>; val AlumBrass = <tconstruct:ingots:5>;
 /*Enderio*/
-val ElecSteel = <enderio:item_alloy_ingot>; val EnerAlloy = <enderio:item_alloy_ingot:1>; val VibrantAlloy = <enderio:item_alloy_ingot:2>; val RedAlloy = <enderio:item_alloy_ingot:3>; val ConIron = <enderio:item_alloy_ingot:4>; val PulsIron = <enderoi:item_alloy_ingot:5>;
+val ElecSteel = <enderio:item_alloy_ingot>; val EnerAlloy = <enderio:item_alloy_ingot:1>; val VibrantAlloy = <enderio:item_alloy_ingot:2>; val RedAlloy = <enderio:item_alloy_ingot:3>; val ConIron = <enderio:item_alloy_ingot:4>; /*val PulsIron = <enderoi:item_alloy_ingot:5>;*/
 val DarkSteel = <enderio:item_alloy_ingot:6>; val Soul = <enderio:item_alloy_ingot:7>; val EndSteel = <enderio:item_alloy_ingot:8>; val Grainf = <enderio:item_material:20>; 
 /*ThaumCraft*/
-val Thaumium = <thaumcraft:ingot>; val VoidMetal = <thaumcraft:ingots:1>; val Brass = <thaumcraft:ingot:2>; val QuickSilver = <thaumcraft:quicksilver>; val Amber = <thaumcraft:amber>;
+val Thaumium = <thaumcraft:ingot>; /*val VoidMetal = <thaumcraft:ingots:1>;*/ val Brass = <thaumcraft:ingot:2>; val QuickSilver = <thaumcraft:quicksilver>; val Amber = <thaumcraft:amber>;
 /*Thermal Foundation*/
 val Tin = <thermalfoundation:material:129>; val Copper = <thermalfoundation:material:128>; val Silver = <thermalfoundation:material:130>; val Lead = <thermalfoundation:material:131>; val Aluminum = <thermalfoundation:material:132>;
 val Nickel = <thermalfoundation:material:133>; val Platinum = <thermalfoundation:material:134>; val Iridium = <thermalfoundation:material:135>; val Mithril = <thermalfoundation:material:136>; val Steel = <thermalfoundation:material:160>;
