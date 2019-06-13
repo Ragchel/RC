@@ -94,445 +94,99 @@ recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(En
 /*Crafting*/
 /*Tier 1*/
 recipes.addShaped(ST1,
-[[Ps, If, Ps],
-[If, Seeds, If],
-[Ps, If, Ps]
-]);
+[[Ps, If, Ps],[If, Seeds, If],[Ps, If, Ps]]);
 recipes.addShaped(WoodSeeds,
-[[<minecraft:log>, If, <minecraft:log:1>],
-[If, ST1, If],
-[<minecraft:log:2>, If, <minecraft:log:3>]
-]);
-recipes.addShaped(WaterSeeds,
-[[Water, If, Water],
-[If, ST1, If],
-[Water, If, Water]
-]);
-recipes.addShaped(IceSeeds,
-[[Ice, If, Ice],
-[If, ST1, If],
-[Ice, If, Ice]
-]);
-recipes.addShaped(NatureSeeds,
-[[NatureCluster, If, NatureCluster],
-[If, ST1, If],
-[NatureCluster, If, NatureCluster]
-]);
-recipes.addShaped(DirtSeeds,
-[[Dirt, If, Dirt],
-[If, ST1, If],
-[Dirt, If, Dirt]
-]);
-recipes.addShaped(StoneSeeds,
-[[Stone, If, Stone],
-[If, ST1, If],
-[Stone, If, Stone]
-]);
-recipes.addShaped(ZombieSeeds,
-[[ZombieC, If, ZombieC],
-[If, ST1, If],
-[ZombieC, If, ZombieC]
-]);
+[[<minecraft:log>, If, <minecraft:log:1>],[If, ST1, If],[<minecraft:log:2>, If, <minecraft:log:3>]]);
+recipes.addShaped(WaterSeeds,[[Water, If, Water],[If, ST1, If],[Water, If, Water]]);
+recipes.addShaped(IceSeeds,[[Ice, If, Ice],[If, ST1, If],[Ice, If, Ice]]);
+recipes.addShaped(NatureSeeds,[[NatureCluster, If, NatureCluster],[If, ST1, If],[NatureCluster, If, NatureCluster]]);
+recipes.addShaped(DirtSeeds,[[Dirt, If, Dirt],[If, ST1, If],[Dirt, If, Dirt]]);
+recipes.addShaped(StoneSeeds,[[Stone, If, Stone],[If, ST1, If],[Stone, If, Stone]]);
+recipes.addShaped(ZombieSeeds,[[ZombieC, If, ZombieC],[If, ST1, If],[ZombieC, If, ZombieC]]);
 
 /*Tier 2*/
-recipes.addShaped(ST2,
-[[Ps, Pr, Ps],
-[Pr, ST1, Pr],
-[Ps, Pr, Ps]
-]);
-recipes.addShaped(NetherSeeds,
-[[Netherrack, Pr, Netherrack],
-[Pr, ST2, Pr],
-[Netherrack, Pr, Netherrack]
-]);
-recipes.addShaped(PigSeeds,
-[[PigC, Pr, PigC],
-[Pr, ST2, Pr],
-[PigC, Pr, PigC]
-]);
-recipes.addShaped(DyeSeeds,
-[[DyeCluster, Pr, DyeCluster],
-[Pr, ST2, Pr],
-[DyeCluster, Pr, DyeCluster]
-]);
-recipes.addShaped(FireSeeds,
-[[Lava, Pr, Lava],
-[Pr, ST2, Pr],
-[Lava, Pr, Lava]
-]);
-recipes.addShaped(CoalSeeds,
-[[Coal, Pr, Coal],
-[Pr, ST2, Pr],
-[Coal, Pr, Coal]
-]);
-recipes.addShaped(SlimeSeeds,
-[[SlimeC, Pr, SlimeC],
-[Pr, ST2, Pr],
-[SlimeC, Pr, SlimeC]
-]);
-recipes.addShaped(SheepSeeds,
-[[SheepC, Pr, SheepC],
-[Pr, ST2, Pr],
-[SheepC, Pr, SheepC]
-]);
-recipes.addShaped(CowSeeds,
-[[CowC, Pr, CowC],
-[Pr, ST2, Pr],
-[CowC, Pr, CowC]
-]);
-recipes.addShaped(ChickenSeeds,
-[[ChickenC, Pr, ChickenC],
-[Pr, ST2, Pr],
-[ChickenC, Pr, ChickenC]
-]);
-recipes.addShaped(CopperSeeds,
-[[Copper, Pr, Copper],
-[Pr, ST2, Pr],
-[Copper, Pr, Copper]
-]);
-recipes.addShaped(AluminumSeeds,
-[[Aluminum, Pr, Aluminum],
-[Pr, ST2, Pr],
-[Aluminum, Pr, Aluminum]
-]);
-recipes.addShaped(SulfurSeeds,
-[[Sulfur, Pr, Sulfur],
-[Pr, ST2, Pr],
-[Sulfur, Pr, Sulfur]
-]);
-recipes.addShaped(SiliconSeeds,
-[[Silicon, Pr, Silicon],
-[Pr, ST2, Pr],
-[Silicon, Pr, Silicon]
-]);
-recipes.addShaped(AlBrassSeeds,
-[[AlumBrass, Pr, AlumBrass],
-[Pr, ST2, Pr],
-[AlumBrass, Pr, AlumBrass]
-]);
-recipes.addShaped(ApatiteSeeds,
-[[Apatite, Pr, Apatite],
-[Pr, ST2, Pr],
-[Apatite, Pr, Apatite]
-]);
-recipes.addShaped(GrainfSeeds,
-[[Grainf, Pr, Grainf],
-[Pr, ST2, Pr],
-[Grainf, Pr, Grainf]
-]);
+recipes.addShaped(ST2,[[Ps, Pr, Ps],[Pr, ST1, Pr],[Ps, Pr, Ps]]);
+recipes.addShaped(NetherSeeds,[[Netherrack, Pr, Netherrack],[Pr, ST2, Pr],[Netherrack, Pr, Netherrack]]);
+recipes.addShaped(PigSeeds,[[PigC, Pr, PigC],[Pr, ST2, Pr],[PigC, Pr, PigC]]);
+recipes.addShaped(DyeSeeds,[[DyeCluster, Pr, DyeCluster],[Pr, ST2, Pr],[DyeCluster, Pr, DyeCluster]]);
+recipes.addShaped(FireSeeds,[[Lava, Pr, Lava],[Pr, ST2, Pr],[Lava, Pr, Lava]]);
+recipes.addShaped(CoalSeeds,[[Coal, Pr, Coal],[Pr, ST2, Pr],[Coal, Pr, Coal]]);
+recipes.addShaped(SlimeSeeds,[[SlimeC, Pr, SlimeC],[Pr, ST2, Pr],[SlimeC, Pr, SlimeC]]);
+recipes.addShaped(SheepSeeds,[[SheepC, Pr, SheepC],[Pr, ST2, Pr],[SheepC, Pr, SheepC]]);
+recipes.addShaped(CowSeeds,[[CowC, Pr, CowC],[Pr, ST2, Pr],[CowC, Pr, CowC]]);
+recipes.addShaped(ChickenSeeds,[[ChickenC, Pr, ChickenC],[Pr, ST2, Pr],[ChickenC, Pr, ChickenC]]);
+recipes.addShaped(CopperSeeds,[[Copper, Pr, Copper],[Pr, ST2, Pr],[Copper, Pr, Copper]]);
+recipes.addShaped(AluminumSeeds,[[Aluminum, Pr, Aluminum],[Pr, ST2, Pr],[Aluminum, Pr, Aluminum]]);
+recipes.addShaped(SulfurSeeds,[[Sulfur, Pr, Sulfur],[Pr, ST2, Pr],[Sulfur, Pr, Sulfur]]);
+recipes.addShaped(SiliconSeeds,[[Silicon, Pr, Silicon],[Pr, ST2, Pr],[Silicon, Pr, Silicon]]);
+recipes.addShaped(AlBrassSeeds,[[AlumBrass, Pr, AlumBrass],[Pr, ST2, Pr],[AlumBrass, Pr, AlumBrass]]);
+recipes.addShaped(ApatiteSeeds,[[Apatite, Pr, Apatite],[Pr, ST2, Pr],[Apatite, Pr, Apatite]]);
+recipes.addShaped(GrainfSeeds,[[Grainf, Pr, Grainf],[Pr, ST2, Pr],[Grainf, Pr, Grainf]]);
 
 /*Tier 3*/
-recipes.addShaped(ST3,
-[[Ps, It, Ps],
-[It, ST2, It],
-[Ps, It, Ps]
-]);
-recipes.addShaped(GoldSeeds,
-[[GoldIngot, It, GoldIngot],
-[It, ST3, It],
-[GoldIngot, It, GoldIngot]
-]);
-recipes.addShaped(ObsidianSeeds,
-[[Obsidian, It, Obsidian],
-[It, ST3, It],
-[Obsidian, It, Obsidian]
-]);
-recipes.addShaped(RedstoneSeeds, 
-[[Redstone, It, Redstone],
-[It, ST3, It],
-[Redstone, It, Redstone]
-]);
-recipes.addShaped(QuartzSeeds,
-[[Quartz, It, Quartz],
-[It, ST3, It],
-[Quartz, It, Quartz]
-]);
-recipes.addShaped(IronSeeds,
-[[IronIngot, It, IronIngot],
-[It, ST3, It],
-[IronIngot, It, IronIngot]
-]);
-recipes.addShaped(RabbitSeeds,
-[[RabbitC, It, RabbitC],
-[It, ST3, It],
-[RabbitC, It, RabbitC]
-]);
-recipes.addShaped(GuardianSeeds,
-[[GuardianC, It, GuardianC],
-[It, ST3, It],
-[GuardianC, It, GuardianC]
-]);
-recipes.addShaped(SkeletonSeeds,
-[[SkeletonC, It, SkeletonC],
-[It, ST3, It],
-[SkeletonC, It, SkeletonC]
-]);
-recipes.addShaped(CreeperSeeds,
-[[CreeperC, It, CreeperC],
-[It, ST3, It],
-[CreeperC, It, CreeperC]
-]);
-recipes.addShaped(SpiderSeeds,
-[[SpiderC, It, SpiderC],
-[It, ST3, It],
-[SpiderC, It, SpiderC]
-]);
-recipes.addShaped(SilverSeeds,
-[[Silver, It, Silver],
-[It, ST3, It],
-[Silver, It, Silver]
-]);
-recipes.addShaped(BrassSeeds,
-[[Brass, It, Brass],
-[It, ST3, It],
-[Brass, It, Brass]
-]);
-recipes.addShaped(BronzeSeeds,
-[[Bronze, It, Bronze],
-[It, ST3, It],
-[Bronze, It, Bronze]
-]);
-recipes.addShaped(TinSeeds,
-[[Tin, It, Tin],
-[It, ST3, It],
-[Tin, It, Tin]
-]);
-recipes.addShaped(SaltPeterSeeds,
-[[SaltPeter, It, SaltPeter],
-[It, ST3, It],
-[SaltPeter, It, SaltPeter]
-]);
-recipes.addShaped(InvarSeeds,
-[[Invar, It, Invar],
-[It, ST3, It],
-[Invar, It, Invar]
-]);
-recipes.addShaped(ElectrumSeeds,
-[[Electrum, It, Electrum],
-[It, ST3, It],
-[Electrum, It, Electrum]
-]);
-recipes.addShaped(ConstantanSeeds,
-[[Constantan, It,Constantan],
-[It, ST3, It],
-[Constantan, It, Constantan]
-]);
-recipes.addShaped(NickelSeeds,
-[[Nickel, It, Nickel],
-[It, ST3, It],
-[Nickel, It, Nickel]
-]);
-recipes.addShaped(SteelSeeds,
-[[Steel, It, Steel],
-[It, ST3, It],
-[Steel, It, Steel]
-]);
-recipes.addShaped(LeadSeeds,
-[[Lead, It, Lead],
-[It, ST3, It],
-[Lead, It, Lead]
-]);
-recipes.addShaped(KnightSlimeSeeds,
-[[KnightSlime, It, KnightSlime],
-[It, ST3, It],
-[KnightSlime, It, KnightSlime]
-]);
-recipes.addShaped(BasalzSeeds,
-[[BasalzC, It, BasalzC],
-[It, ST3, It],
-[BasalzC, It, BasalzC]
-]);
-recipes.addShaped(BlitzSeeds,
-[[BlitzC, It, BlitzC],
-[It, ST3, It],
-[BlitzC, It, BlitzC]
-]);
-recipes.addShaped(BlizzSeeds,
-[[BlizzC, It, BlizzC],
-[It, ST3, It],
-[BlizzC, It, BlizzC]
-]);
-recipes.addShaped(ConductiveIronSeeds,
-[[ConIron, It, ConIron],
-[It, ST3, It],
-[ConIron, It, ConIron]
-]);
-recipes.addShaped(RedstoneAlloySeeds,
-[[RedAlloy, It, RedAlloy],
-[It, ST3, It],
-[RedAlloy, It, RedAlloy]
-]);
-recipes.addShaped(ElectricalSteelSeeds,
-[[ElecSteel, It, ElecSteel],
-[It, ST3, It],
-[ElecSteel, It, ElecSteel]
-]);
-recipes.addShaped(ArditeSeeds,
-[[Ardite, It, Ardite],
-[It, ST3, It],
-[Ardite, It, Ardite]
-]);
-recipes.addShaped(BlackQuartzSeeds,
-[[BlackQuartz, It, BlackQuartz],
-[It, ST3, It],
-[BlackQuartz, It, BlackQuartz]
-]);
-recipes.addShaped(ThaumiumSeeds,
-[[Thaumium, It, Thaumium],
-[It, ST3, It],
-[Thaumium, It, Thaumium]
-]);
-recipes.addShaped(QuickSilverSeeds,
-[[QuickSilver, It, QuickSilver],
-[It, ST3, It],
-[QuickSilver, It, QuickSilver]
-]);
-recipes.addShaped(QuartzIronSeeds,
-[[QuartzIron, It, QuartzIron],
-[It, ST3, It],
-[QuartzIron, It, QuartzIron]
-]);
+recipes.addShaped(ST3,[[Ps, It, Ps],[It, ST2, It],[Ps, It, Ps]]);
+recipes.addShaped(GoldSeeds,[[GoldIngot, It, GoldIngot],[It, ST3, It],[GoldIngot, It, GoldIngot]]);
+recipes.addShaped(ObsidianSeeds,[[Obsidian, It, Obsidian],[It, ST3, It],[Obsidian, It, Obsidian]]);
+recipes.addShaped(RedstoneSeeds,[[Redstone, It, Redstone],[It, ST3, It],[Redstone, It, Redstone]]);
+recipes.addShaped(QuartzSeeds,[[Quartz, It, Quartz],[It, ST3, It],[Quartz, It, Quartz]]);
+recipes.addShaped(IronSeeds,[[IronIngot, It, IronIngot],[It, ST3, It],[IronIngot, It, IronIngot]]);
+recipes.addShaped(RabbitSeeds,[[RabbitC, It, RabbitC],[It, ST3, It],[RabbitC, It, RabbitC]]);
+recipes.addShaped(GuardianSeeds,[[GuardianC, It, GuardianC],[It, ST3, It],[GuardianC, It, GuardianC]]);
+recipes.addShaped(SkeletonSeeds,[[SkeletonC, It, SkeletonC],[It, ST3, It],[SkeletonC, It, SkeletonC]]);
+recipes.addShaped(CreeperSeeds,[[CreeperC, It, CreeperC],[It, ST3, It],[CreeperC, It, CreeperC]]);
+recipes.addShaped(SpiderSeeds,[[SpiderC, It, SpiderC],[It, ST3, It],[SpiderC, It, SpiderC]]);
+recipes.addShaped(SilverSeeds,[[Silver, It, Silver],[It, ST3, It],[Silver, It, Silver]]);
+recipes.addShaped(BrassSeeds,[[Brass, It, Brass],[It, ST3, It],[Brass, It, Brass]]);
+recipes.addShaped(BronzeSeeds,[[Bronze, It, Bronze],[It, ST3, It],[Bronze, It, Bronze]]);
+recipes.addShaped(TinSeeds,[[Tin, It, Tin],[It, ST3, It],[Tin, It, Tin]]);
+recipes.addShaped(SaltPeterSeeds,[[SaltPeter, It, SaltPeter],[It, ST3, It],[SaltPeter, It, SaltPeter]]);
+recipes.addShaped(InvarSeeds,[[Invar, It, Invar],[It, ST3, It],[Invar, It, Invar]]);
+recipes.addShaped(ElectrumSeeds,[[Electrum, It, Electrum],[It, ST3, It],[Electrum, It, Electrum]]);
+recipes.addShaped(ConstantanSeeds,[[Constantan, It,Constantan],[It, ST3, It],[Constantan, It, Constantan]]);
+recipes.addShaped(NickelSeeds,[[Nickel, It, Nickel],[It, ST3, It],[Nickel, It, Nickel]]);
+recipes.addShaped(SteelSeeds,[[Steel, It, Steel],[It, ST3, It],[Steel, It, Steel]]);
+recipes.addShaped(LeadSeeds,[[Lead, It, Lead],[It, ST3, It],[Lead, It, Lead]]);
+recipes.addShaped(KnightSlimeSeeds,[[KnightSlime, It, KnightSlime],[It, ST3, It],[KnightSlime, It, KnightSlime]]);
+recipes.addShaped(BasalzSeeds,[[BasalzC, It, BasalzC],[It, ST3, It],[BasalzC, It, BasalzC]]);
+recipes.addShaped(BlitzSeeds,[[BlitzC, It, BlitzC],[It, ST3, It],[BlitzC, It, BlitzC]]);
+recipes.addShaped(BlizzSeeds,[[BlizzC, It, BlizzC],[It, ST3, It],[BlizzC, It, BlizzC]]);
+recipes.addShaped(ConductiveIronSeeds,[[ConIron, It, ConIron],[It, ST3, It],[ConIron, It, ConIron]]);
+recipes.addShaped(RedstoneAlloySeeds,[[RedAlloy, It, RedAlloy],[It, ST3, It],[RedAlloy, It, RedAlloy]]);
+recipes.addShaped(ElectricalSteelSeeds,[[ElecSteel, It, ElecSteel],[It, ST3, It],[ElecSteel, It, ElecSteel]]);
+recipes.addShaped(ArditeSeeds,[[Ardite, It, Ardite],[It, ST3, It],[Ardite, It, Ardite]]);
+recipes.addShaped(BlackQuartzSeeds,[[BlackQuartz, It, BlackQuartz],[It, ST3, It],[BlackQuartz, It, BlackQuartz]]);
+recipes.addShaped(ThaumiumSeeds,[[Thaumium, It, Thaumium],[It, ST3, It],[Thaumium, It, Thaumium]]);
+recipes.addShaped(QuickSilverSeeds,[[QuickSilver, It, QuickSilver],[It, ST3, It],[QuickSilver, It, QuickSilver]]);
+recipes.addShaped(QuartzIronSeeds,[[QuartzIron, It, QuartzIron],[It, ST3, It],[QuartzIron, It, QuartzIron]]);
 
 /*Tier 4*/
-recipes.addShaped(ST4,
-[[Ps, Su, Ps],
-[Su, ST3, Su],
-[Ps, Su, Ps]
-]);
-recipes.addShaped(EndSeeds,
-[[End, Su, End],
-[Su, ST4, Su],
-[End, Su, End]
-]);
-recipes.addShaped(GlowstoneSeeds,
-[[Glowstone, Su, Glowstone],
-[Su, ST4, Su],
-[Glowstone, Su, Glowstone]
-]);
-recipes.addShaped(ExpSeeds,
-[[ExpC, Su, ExpC],
-[Su, ST4, Su],
-[ExpC, Su, ExpC]
-]);
-recipes.addShaped(LapisSeeds,
-[[Lapis, Su, Lapis],
-[Su, ST4, Su],
-[Lapis, Su, Lapis]
-]);
-recipes.addShaped(EndermanSeeds,
-[[EndermanC, Su, EndermanC],
-[Su, ST4, Su],
-[EndermanC, Su, EndermanC]
-]);
-recipes.addShaped(GhastSeeds,
-[[GhastC, Su, GhastC],
-[Su, ST4, Su],
-[GhastC, Su, GhastC]
-]);
-recipes.addShaped(BlazeSeeds,
-[[BlazeC, Su, BlazeC],
-[Su, ST4, Su],
-[BlazeC, Su, BlazeC]
-]);
-recipes.addShaped(MithrilSeeds,
-[[Mithril, Su, Mithril],
-[Su, ST4, Su],
-[Mithril, Su, Mithril]
-]);
-recipes.addShaped(LumiumSeeds,
-[[Lumium, Su, Lumium],
-[Su, ST4, Su],
-[Lumium, Su, Lumium]
-]);
-recipes.addShaped(SignalumSeeds,
-[[Signalum, Su, Signalum],
-[Su, ST4, Su],
-[Signalum, Su, Signalum]
-]);
-recipes.addShaped(AmberSeeds,
-[[Amber, Su, Amber],
-[Su, ST4, Su],
-[Amber, Su, Amber]
-]);
-recipes.addShaped(DarkSteelSeeds,
-[[DarkSteel, Su, DarkSteel],
-[Su, ST4, Su],
-[DarkSteel, Su, DarkSteel]
-]);
-recipes.addShaped(SoulariumSeeds,
-[[Soul, Su, Soul],
-[Su, ST4, Su],
-[Soul, Su, Soul]
-]);
-recipes.addShaped(CobaltSeeds,
-[[Cobalt, Su, Cobalt],
-[Su, ST4, Su],
-[Cobalt, Su, Cobalt]
-]);
-recipes.addShaped(VoidMetalSeeds,
-[[<thaumcraft:ingot:1>, Su, <thaumcraft:ingot:1>],
-[Su, ST4, Su],
-[<thaumcraft:ingot:1>, Su, <thaumcraft:ingot:1>]
-]);
-recipes.addShaped(EnergeticAlloySeeds,
-[[EnerAlloy, Su, EnerAlloy],
-[Su, ST4, Su],
-[EnerAlloy, Su, EnerAlloy]
-]);
-recipes.addShaped(PulsatingIronSeeds,
-[[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>],
-[Su, ST4, Su],
-[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>]
-]);
+recipes.addShaped(ST4,[[Ps, Su, Ps],[Su, ST3, Su],[Ps, Su, Ps]]);
+recipes.addShaped(EndSeeds,[[End, Su, End],[Su, ST4, Su],[End, Su, End]]);
+recipes.addShaped(GlowstoneSeeds,[[Glowstone, Su, Glowstone],[Su, ST4, Su],[Glowstone, Su, Glowstone]]);
+recipes.addShaped(ExpSeeds,[[ExpC, Su, ExpC],[Su, ST4, Su],[ExpC, Su, ExpC]]);
+recipes.addShaped(LapisSeeds,[[Lapis, Su, Lapis],[Su, ST4, Su],[Lapis, Su, Lapis]]);
+recipes.addShaped(EndermanSeeds,[[EndermanC, Su, EndermanC],[Su, ST4, Su],[EndermanC, Su, EndermanC]]);
+recipes.addShaped(GhastSeeds,[[GhastC, Su, GhastC],[Su, ST4, Su],[GhastC, Su, GhastC]]);
+recipes.addShaped(BlazeSeeds,[[BlazeC, Su, BlazeC],[Su, ST4, Su],[BlazeC, Su, BlazeC]]);
+recipes.addShaped(MithrilSeeds,[[Mithril, Su, Mithril],[Su, ST4, Su],[Mithril, Su, Mithril]]);
+recipes.addShaped(LumiumSeeds,[[Lumium, Su, Lumium],[Su, ST4, Su],[Lumium, Su, Lumium]]);
+recipes.addShaped(SignalumSeeds,[[Signalum, Su, Signalum],[Su, ST4, Su],[Signalum, Su, Signalum]]);
+recipes.addShaped(AmberSeeds,[[Amber, Su, Amber],[Su, ST4, Su],[Amber, Su, Amber]]);
+recipes.addShaped(DarkSteelSeeds,[[DarkSteel, Su, DarkSteel],[Su, ST4, Su],[DarkSteel, Su, DarkSteel]]);
+recipes.addShaped(SoulariumSeeds,[[Soul, Su, Soul],[Su, ST4, Su],[Soul, Su, Soul]]);
+recipes.addShaped(CobaltSeeds,[[Cobalt, Su, Cobalt],[Su, ST4, Su],[Cobalt, Su, Cobalt]]);
+recipes.addShaped(VoidMetalSeeds,[[<thaumcraft:ingot:1>, Su, <thaumcraft:ingot:1>],[Su, ST4, Su],[<thaumcraft:ingot:1>, Su, <thaumcraft:ingot:1>]]);
+recipes.addShaped(EnergeticAlloySeeds,[[EnerAlloy, Su, EnerAlloy],[Su, ST4, Su],[EnerAlloy, Su, EnerAlloy]]);
+recipes.addShaped(PulsatingIronSeeds,[[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>],[Su, ST4, Su],[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>]]);
 
 /*Tier 5*/
-recipes.addShaped(ST5,
-[[Ps, Sr, Ps],
-[Sr, ST4, Sr],
-[Ps, Sr, Ps]
-]);
-recipes.addShaped(DiamondSeeds,
-[[Diamond, Sr, Diamond],
-[Sr, ST5, Sr],
-[Diamond, Sr, Diamond]
-]);
-recipes.addShaped(EmeraldSeeds,
-[[Emerald, Sr, Emerald],
-[Sr, ST5, Sr],
-[Emerald, Sr, Emerald]
-]);
-recipes.addShaped(WitherSkeletonSeeds,
-[[WitherSkeletonC, Sr, WitherSkeletonC],
-[Sr, ST5, Sr],
-[WitherSkeletonC, Sr, WitherSkeletonC]
-]);
-recipes.addShaped(IridiumSeeds,
-[[Iridium, Sr, Iridium],
-[Sr, ST5, Sr],
-[Iridium, Sr, Iridium]
-]);
-recipes.addShaped(PlatinumSeeds,
-[[Platinum, Sr, Platinum],
-[Sr, ST5, Sr],
-[Platinum, Sr, Platinum]
-]);
-recipes.addShaped(EnderiumSeeds,
-[[Enderium, Sr, Enderium],
-[Sr, ST5, Sr],
-[Enderium, Sr, Enderium]
-]);
-recipes.addShaped(ManyullynSeeds,
-[[Manyullyn, Sr, Manyullyn],
-[Sr, ST5, Sr],
-[Manyullyn, Sr, Manyullyn]
-]);
-recipes.addShaped(EndSteelSeeds,
-[[EndSteel, Sr, EndSteel],
-[Sr, ST5, Sr],
-[EndSteel, Sr, EndSteel]
-]);
-recipes.addShaped(VibrantalloySeeds,
-[[VibrantAlloy, Sr, VibrantAlloy],
-[Sr, ST5, Sr],
-[VibrantAlloy, Sr, VibrantAlloy]
-]);
+recipes.addShaped(ST5,[[Ps, Sr, Ps],[Sr, ST4, Sr],[Ps, Sr, Ps]]);
+recipes.addShaped(DiamondSeeds,[[Diamond, Sr, Diamond],[Sr, ST5, Sr],[Diamond, Sr, Diamond]]);
+recipes.addShaped(EmeraldSeeds,[[Emerald, Sr, Emerald],[Sr, ST5, Sr],[Emerald, Sr, Emerald]]);
+recipes.addShaped(WitherSkeletonSeeds,[[WitherSkeletonC, Sr, WitherSkeletonC],[Sr, ST5, Sr],[WitherSkeletonC, Sr, WitherSkeletonC]]);
+recipes.addShaped(IridiumSeeds,[[Iridium, Sr, Iridium],[Sr, ST5, Sr],[Iridium, Sr, Iridium]]);
+recipes.addShaped(PlatinumSeeds,[[Platinum, Sr, Platinum],[Sr, ST5, Sr],[Platinum, Sr, Platinum]]);
+recipes.addShaped(EnderiumSeeds,[[Enderium, Sr, Enderium],[Sr, ST5, Sr],[Enderium, Sr, Enderium]]);
+recipes.addShaped(ManyullynSeeds,[[Manyullyn, Sr, Manyullyn],[Sr, ST5, Sr],[Manyullyn, Sr, Manyullyn]]);
+recipes.addShaped(EndSteelSeeds,[[EndSteel, Sr, EndSteel],[Sr, ST5, Sr],[EndSteel, Sr, EndSteel]]);
+recipes.addShaped(VibrantalloySeeds,[[VibrantAlloy, Sr, VibrantAlloy],[Sr, ST5, Sr],[VibrantAlloy, Sr, VibrantAlloy]]);
