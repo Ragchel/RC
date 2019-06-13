@@ -38,13 +38,5 @@ recipes.addShaped(EL,
 ]);
 
 /*recipes addShapeless*/
-recipes.addShapeless(BlueQuartz, [QuartzB,Lapis]);
-
-recipes.addShapeless(Stoneburnt, [PolishedStone,Fire]);
-
-recipes.addShapeless(QuartzBurned, [QuartzB,Fire]);
-
-
-recipes.addShapeless(SG*2, [Sand,Glass]);
-
+recipes.addShapeless(BlueQuartz, [QuartzB,Lapis]); recipes.addShapeless(Stoneburnt, [PolishedStone,Fire]); recipes.addShapeless(QuartzBurned, [QuartzB,Fire]); recipes.addShapeless(SG*2, [Sand,Glass]);
 recipes.addShapeless(CE, [Grass,DOF]);

@@ -56,5 +56,3 @@ recipes.addShaped (<tconstruct:smeltery_io>,
 [<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>],
 [<tconstruct:materials>, null, <tconstruct:materials>]
 ]);
-
-print("Finished TinkersConstruct.zs");

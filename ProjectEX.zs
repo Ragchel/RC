@@ -1,16 +1,8 @@
 /*ProjectEX.zs*/
 
-val Glowstone = <minecraft:glowstone>;
-val DBlock = <minecraft:diamond_block>;
-val Glass = <minecraft:glass>;
-val CMK1 = <projectex:collector>;
-val CMK2 = <projectex:collector:1>;
-val CMK3 = <projectex:collector:2>;
-val CMK4 = <projectex:collector:3>;
-val NS = <minecraft:nether_star>;
-val Dmatter = <projecte:item.pe_matter>;
-val Rmatter = <projecte:item.pe_matter:1>;
-val Obsidian = <minecraft:obsidian>;
+val Glowstone = <minecraft:glowstone>; val DBlock = <minecraft:diamond_block>; val Glass = <minecraft:glass>; val CMK1 = <projectex:collector>;
+val CMK2 = <projectex:collector:1>; val CMK3 = <projectex:collector:2>; val CMK4 = <projectex:collector:3>; val NS = <minecraft:nether_star>;
+val Dmatter = <projecte:item.pe_matter>; val Rmatter = <projecte:item.pe_matter:1>; val Obsidian = <minecraft:obsidian>;
 
 recipes.remove(CMK1); recipes.remove(CMK2); recipes.remove(CMK3); recipes.remove(CMK4);
 recipes.remove(<projectex:collector:4>); recipes.remove(<projectex:collector:5>); recipes.remove(<projectex:collector:6>); recipes.remove(<projectex:collector:7>); 
