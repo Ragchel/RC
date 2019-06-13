@@ -32,7 +32,7 @@ function init() {
 	}
 }
 var categoriesToHide as string[] = [
-    "jeresources.enchantment", "jeresources.dungeon", "thermaldynamics.covers", "jei.information", "Painter", "minecraft.fuel", "VILLAGER_TRADE_CATEGORY", "sludge_refiner_category",
+    "thermaldynamics.covers", "jei.information", "Painter", "minecraft.fuel", "VILLAGER_TRADE_CATEGORY", "sludge_refiner_category",
 	"machine_produce_category", "petrified_burn_time", "if_manual_category", "pe.worldtransmute", "pe.collector", "actuallyadditions.booklet", "forestry.rainmaker", "mysticalagriculture:reprocessor_jei", "ic2.scrapbox",
 ];
 for category in categoriesToHide {
