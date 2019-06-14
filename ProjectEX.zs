@@ -24,38 +24,9 @@ recipes.remove(<projectex:relay:4>); recipes.remove(<projectex:relay:5>); recipe
 recipes.remove(<projectex:relay:8>); recipes.remove(<projectex:relay:9>); recipes.remove(<projectex:relay:10>); recipes.remove(<projectex:relay:11>);
 recipes.remove(<projectex:relay:12>); recipes.remove(<projectex:relay:13>); recipes.remove(<projectex:relay:14>); recipes.remove(<projectex:relay:15>);
 
-recipes.addShaped (CMK1,
-[[Glowstone, Glass, Glowstone],
-[Glowstone, DBlock, Glowstone],
-[Glowstone, Glowstone, Glowstone]
-]);
-
-recipes.addShaped (CMK2,
-[[NS, Dmatter, NS],
-[NS, CMK1, NS],
-[NS, NS, NS]
-]);
-
-recipes.addShaped (CMK3,
-[[ NS, Rmatter, NS],
-[ NS, CMK2, NS],
-[ NS, NS, NS],
-]);
-
-recipes.addShaped (<projectex:relay>,
-[[Obsidian, Glass, Obsidian],
-[Obsidian, DBlock, Obsidian],
-[Obsidian, Obsidian, Obsidian]
-]);
-
-recipes.addShaped (<projectex:relay:1>,
-[[NS, Dmatter, NS],
-[NS, <projectex:relay>, NS],
-[NS, NS, NS]
-]);
-
-recipes.addShaped (<projectex:relay:2>,
-[[NS, Rmatter, NS],
-[NS, <projectex:relay:1>, NS],
-[NS, NS, NS]
-]);
+recipes.addShaped (CMK1,[[Glowstone, Glass, Glowstone],[Glowstone, DBlock, Glowstone],[Glowstone, Glowstone, Glowstone]]);
+recipes.addShaped (CMK2,[[NS, Dmatter, NS],[NS, CMK1, NS],[NS, NS, NS]]);
+recipes.addShaped (CMK3,[[ NS, Rmatter, NS],[ NS, CMK2, NS],[ NS, NS, NS],]);
+recipes.addShaped (<projectex:relay>,[[Obsidian, Glass, Obsidian],[Obsidian, DBlock, Obsidian],[Obsidian, Obsidian, Obsidian]]);
+recipes.addShaped (<projectex:relay:1>,[[NS, Dmatter, NS],[NS, <projectex:relay>, NS],[NS, NS, NS]]);
+recipes.addShaped (<projectex:relay:2>,[[NS, Rmatter, NS],[NS, <projectex:relay:1>, NS],[NS, NS, NS]]);

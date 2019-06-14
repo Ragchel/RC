@@ -2,9 +2,7 @@
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 static removeAndHideIngredients as IIngredient[] = [
-	<minecraft:command_block_minecart>,
-	<openblocks:trophy>, <openblocks:glyph>,
-	<refinedstorage:hollow_cover>, <refinedstorage:cover>,
+	<minecraft:command_block_minecart>,	<openblocks:trophy>, <openblocks:glyph>, <refinedstorage:hollow_cover>, <refinedstorage:cover>,
 	<mysticalagriculture:tier1_inferium_crop>, <mysticalagriculture:tier2_inferium_crop>, <mysticalagriculture:tier3_inferium_crop>, <mysticalagriculture:tier4_inferium_crop>,	<mysticalagriculture:tier5_inferium_crop>, <mysticalagriculture:stone_crop>, <mysticalagriculture:dirt_crop>, <mysticalagriculture:nature_crop>,
 	<mysticalagriculture:wood_crop>, <mysticalagriculture:water_crop>, <mysticalagriculture:ice_crop>, <mysticalagriculture:fire_crop>,	<mysticalagriculture:dye_crop>, <mysticalagriculture:nether_crop>, <mysticalagriculture:coal_crop>, <mysticalagriculture:iron_crop>,
 	<mysticalagriculture:nether_quartz_crop>, <mysticalagriculture:glowstone_crop>, <mysticalagriculture:redstone_crop>, <mysticalagriculture:obsidian_crop>, <mysticalagriculture:gold_crop>, <mysticalagriculture:lapis_lazuli_crop>, <mysticalagriculture:end_crop>, <mysticalagriculture:experience_crop>,
@@ -27,14 +25,10 @@ static removeAndHideIngredients as IIngredient[] = [
 	<projectex:power_flower:8>, <projectex:power_flower:9>, <projectex:power_flower:10>, <projectex:power_flower:11>, <projectex:power_flower:12>, <projectex:power_flower:13>, <projectex:power_flower:14>, <projectex:power_flower:15>,
 ];
 function init() {
-	for ingredient in removeAndHideIngredients {
-		JEI.removeAndHide(ingredient);
-	}
-}
+	for ingredient in removeAndHideIngredients {JEI.removeAndHide(ingredient);}}
+
 var categoriesToHide as string[] = [
-    "thermaldynamics.covers", "jei.information", "Painter", "minecraft.fuel", "VILLAGER_TRADE_CATEGORY", "sludge_refiner_category",
+	"thermaldynamics.covers", "jei.information", "Painter", "minecraft.fuel", "VILLAGER_TRADE_CATEGORY", "sludge_refiner_category",
 	"machine_produce_category", "petrified_burn_time", "if_manual_category", "pe.worldtransmute", "pe.collector", "actuallyadditions.booklet", "forestry.rainmaker", "mysticalagriculture:reprocessor_jei", "ic2.scrapbox",
 ];
-for category in categoriesToHide {
-mods.jei.JEI.hideCategory(category);
-}
+for category in categoriesToHide {mods.jei.JEI.hideCategory(category);}
