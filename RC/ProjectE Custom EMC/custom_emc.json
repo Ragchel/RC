@@ -1,0 +1,504 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:gold_ore|0",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:iron_ore|0",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:coal_ore|0",
+      "emc": 385
+    },
+    {
+      "item": "minecraft:lapis_ore|0",
+      "emc": 7776
+    },
+    {
+      "item": "minecraft:diamond_ore|0",
+      "emc": 24576
+    },
+    {
+      "item": "minecraft:redstone_ore|0",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:emerald_ore|0",
+      "emc": 49152
+    },
+    {
+      "item": "minecraft:quartz_ore|0",
+      "emc": 1536
+    },
+    {
+      "item": "minecraft:enchanted_book|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:splash_potion|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lingering_potion|0",
+      "emc": 0
+    },
+    {
+      "item": "forge:bucketfilled|0",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:charged_quartz_ore|0",
+      "emc": 192
+    },
+    {
+      "item": "thermalfoundation:ore|1",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:ore|0",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:ore|3",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:ore|2",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:ore|5",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:ore|4",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:ore|6",
+      "emc": 4096
+    },
+    {
+      "item": "appliedenergistics2:quartz_ore|0",
+      "emc": 192
+    },
+    {
+      "item": "mysticalagriculture:prosperity_ore|0",
+      "emc": 384
+    },
+    {
+      "item": "thermalfoundation:ore|2",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:ore|3",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:ore|0",
+      "emc": 512
+    },
+    {
+      "item": "mysticalagriculture:nether_prosperity_ore|0",
+      "emc": 448
+    },
+    {
+      "item": "mysticalagriculture:end_prosperity_ore|0",
+      "emc": 576
+    },
+    {
+      "item": "mysticalagriculture:inferium_ore|0",
+      "emc": 48
+    },
+    {
+      "item": "mysticalagriculture:end_inferium_ore|0",
+      "emc": 72
+    },
+    {
+      "item": "mysticalagriculture:nether_inferium_ore|0",
+      "emc": 56
+    },
+    {
+      "item": "thermalfoundation:ore|4",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:ore|5",
+      "emc": 4096
+    },
+    {
+      "item": "thermalfoundation:ore|6",
+      "emc": 16384
+    },
+    {
+      "item": "tconstruct:ore|1",
+      "emc": 4096
+    },
+    {
+      "item": "tconstruct:ore|0",
+      "emc": 4096
+    },
+    {
+      "item": "forestry:resources|0",
+      "emc": 2304
+    },
+    {
+      "item": "thaumcraft:ore_amber|0",
+      "emc": 1536
+    },
+    {
+      "item": "forestry:resources|1",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:tallgrass|1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chest|0",
+      "emc": 64
+    },
+    {
+      "item": "extrautils2:minichest|0",
+      "emc": 8
+    },
+    {
+      "item": "mysticalagriculture:diamond_essence|0",
+      "emc": 910
+    },
+    {
+      "item": "mysticalagriculture:emerald_essence|0",
+      "emc": 51
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence|0",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:pig_essence|0",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:chicken_essence|0",
+      "emc": 32
+    },
+    {
+      "item": "mysticalagriculture:cow_essence|0",
+      "emc": 64
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence|0",
+      "emc": 32
+    },
+    {
+      "item": "mysticalagriculture:slime_essence|0",
+      "emc": 51
+    },
+    {
+      "item": "mysticalagriculture:skeleton_essence|0",
+      "emc": 144
+    },
+    {
+      "item": "mysticalagriculture:iron_essence|0",
+      "emc": 192
+    },
+    {
+      "item": "mysticalagriculture:nether_quartz_essence|0",
+      "emc": 439
+    },
+    {
+      "item": "mysticalagriculture:glowstone_essence|0",
+      "emc": 384
+    },
+    {
+      "item": "mysticalagriculture:redstone_essence|0",
+      "emc": 64
+    },
+    {
+      "item": "mysticalagriculture:obsidian_essence|0",
+      "emc": 65
+    },
+    {
+      "item": "mysticalagriculture:gold_essence|0",
+      "emc": 2048
+    },
+    {
+      "item": "mysticalagriculture:lapis_lazuli_essence|0",
+      "emc": 864
+    },
+    {
+      "item": "mysticalagriculture:end_essence|0",
+      "emc": 1
+    },
+    {
+      "item": "mysticalagriculture:experience_essence|0",
+      "emc": 108
+    },
+    {
+      "item": "mysticalagriculture:coal_essence|0",
+      "emc": 192
+    },
+    {
+      "item": "mysticalagriculture:nether_essence|0",
+      "emc": 140
+    },
+    {
+      "item": "minecraft:soul_sand|0",
+      "emc": 20
+    },
+    {
+      "item": "mysticalagriculture:dye_essence|0",
+      "emc": 32
+    },
+    {
+      "item": "mysticalagriculture:fire_essence|0",
+      "emc": 8
+    },
+    {
+      "item": "mysticalagriculture:ice_essence|0",
+      "emc": 12
+    },
+    {
+      "item": "mysticalagriculture:water_essence|0",
+      "emc": 191
+    },
+    {
+      "item": "mysticalagriculture:wood_essence|0",
+      "emc": 170
+    },
+    {
+      "item": "mysticalagriculture:nature_essence|0",
+      "emc": 18
+    },
+    {
+      "item": "mysticalagriculture:dirt_essence|0",
+      "emc": 3
+    },
+    {
+      "item": "mysticalagriculture:stone_essence|0",
+      "emc": 8
+    },
+    {
+      "item": "mysticalagriculture:certus_quartz_essence|0",
+      "emc": 48
+    },
+    {
+      "item": "mysticalagriculture:fluix_essence|0",
+      "emc": 192
+    },
+    {
+      "item": "mysticalagriculture:quartz_enriched_iron_essence|0",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:sky_stone_essence|0",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:black_quartz_essence|0",
+      "emc": 110
+    },
+    {
+      "item": "mysticalagriculture:apatite_essence|0",
+      "emc": 341
+    },
+    {
+      "item": "mysticalagriculture:void_metal_essence|0",
+      "emc": 144
+    },
+    {
+      "item": "mysticalagriculture:thaumium_essence|0",
+      "emc": 1024
+    },
+    {
+      "item": "mysticalagriculture:quicksilver_essence|0",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:end_steel_essence|0",
+      "emc": 148
+    },
+    {
+      "item": "mysticalagriculture:vibrant_alloy_essence|0",
+      "emc": 1320
+    },
+    {
+      "item": "mysticalagriculture:energetic_alloy_essence|0",
+      "emc": 936
+    },
+    {
+      "item": "mysticalagriculture:pulsating_iron_essence|0",
+      "emc": 480
+    },
+    {
+      "item": "mysticalagriculture:dark_steel_essence|0",
+      "emc": 168
+    },
+    {
+      "item": "mysticalagriculture:soularium_essence|0",
+      "emc": 1034
+    },
+    {
+      "item": "mysticalagriculture:conductive_iron_essence|0",
+      "emc": 200
+    },
+    {
+      "item": "mysticalagriculture:redstone_alloy_essence|0",
+      "emc": 60
+    },
+    {
+      "item": "mysticalagriculture:electrical_steel_essence|0",
+      "emc": 190
+    },
+    {
+      "item": "mysticalagriculture:grains_of_infinity_essence|0",
+      "emc": 51
+    },
+    {
+      "item": "mysticalagriculture:manyullyn_essence|0",
+      "emc": 512
+    },
+    {
+      "item": "mysticalagriculture:cobalt_essence|0",
+      "emc": 384
+    },
+    {
+      "item": "mysticalagriculture:ardite_essence|0",
+      "emc": 384
+    },
+    {
+      "item": "mysticalagriculture:aluminum_brass_essence|0",
+      "emc": 95
+    },
+    {
+      "item": "mysticalagriculture:lumium_essence|0",
+      "emc": 352
+    },
+    {
+      "item": "mysticalagriculture:signalum_essence|0",
+      "emc": 192
+    },
+    {
+      "item": "mysticalagriculture:basalz_essence|0",
+      "emc": 3415
+    },
+    {
+      "item": "mysticalagriculture:blitz_essence|0",
+      "emc": 3415
+    },
+    {
+      "item": "mysticalagriculture:blizz_essence|0",
+      "emc": 3415
+    },
+    {
+      "item": "mysticalagriculture:amber_essence|0",
+      "emc": 384
+    },
+    {
+      "item": "mysticalagriculture:platinum_essence|0",
+      "emc": 1024
+    },
+    {
+      "item": "mysticalagriculture:invar_essence|0",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:electrum_essence|0",
+      "emc": 640
+    },
+    {
+      "item": "mysticalagriculture:constantan_essence|0",
+      "emc": 288
+    },
+    {
+      "item": "mysticalagriculture:nickel_essence|0",
+      "emc": 512
+    },
+    {
+      "item": "mysticalagriculture:steel_essence|0",
+      "emc": 111
+    },
+    {
+      "item": "mysticalagriculture:lead_essence|0",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:silver_essence|0",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:brass_essence|0",
+      "emc": 288
+    },
+    {
+      "item": "mysticalagriculture:bronze_essence|0",
+      "emc": 80
+    },
+    {
+      "item": "mysticalagriculture:tin_essence|0",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:copper_essence|0",
+      "emc": 96
+    },
+    {
+      "item": "mysticalagriculture:aluminum_essence|0",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:sulfur_essence|0",
+      "emc": 85
+    },
+    {
+      "item": "mysticalagriculture:silicon_essence|0",
+      "emc": 85
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence|0",
+      "emc": 5791
+    },
+    {
+      "item": "mysticalagriculture:enderman_essence|0",
+      "emc": 512
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence|0",
+      "emc": 1024
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence|0",
+      "emc": 922
+    },
+    {
+      "item": "mysticalagriculture:guardian_essence|0",
+      "emc": 2048
+    },
+    {
+      "item": "mysticalagriculture:rabbit_essence|0",
+      "emc": 77
+    },
+    {
+      "item": "mysticalagriculture:spider_essence|0",
+      "emc": 77
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence|0",
+      "emc": 384
+    },
+    {
+      "item": "minecraft:nether_star|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:skull|1",
+      "emc": 0
+    }
+  ]
+}
