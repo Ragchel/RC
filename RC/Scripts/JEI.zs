@@ -23,6 +23,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	<projectex:compressed_collector:8>,	<projectex:compressed_collector:9>,	<projectex:compressed_collector:10>, <projectex:compressed_collector:11>, <projectex:compressed_collector:12>, <projectex:compressed_collector:13>, <projectex:compressed_collector:14>, <projectex:compressed_collector:15>,
 	<projectex:power_flower>, <projectex:power_flower:1>, <projectex:power_flower:2>, <projectex:power_flower:3>, <projectex:power_flower:4>, <projectex:power_flower:5>, <projectex:power_flower:6>, <projectex:power_flower:7>,
 	<projectex:power_flower:8>, <projectex:power_flower:9>, <projectex:power_flower:10>, <projectex:power_flower:11>, <projectex:power_flower:12>, <projectex:power_flower:13>, <projectex:power_flower:14>, <projectex:power_flower:15>,
+	<ic2:te>, <worldcontrol:image_card>, <worldcontrol:info_panel_advanced>, <enderio:block_decoration1>, <enderio:block_decoration2>, <enderio:block_decoration3>,
 ];
 function init() {
 	for ingredient in removeAndHideIngredients {JEI.removeAndHide(ingredient);}}
