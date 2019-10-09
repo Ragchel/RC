@@ -190,3 +190,7 @@ recipes.addShaped(EnderiumSeeds,[[Enderium, Sr, Enderium],[Sr, ST5, Sr],[Enderiu
 recipes.addShaped(ManyullynSeeds,[[Manyullyn, Sr, Manyullyn],[Sr, ST5, Sr],[Manyullyn, Sr, Manyullyn]]);
 recipes.addShaped(EndSteelSeeds,[[EndSteel, Sr, EndSteel],[Sr, ST5, Sr],[EndSteel, Sr, EndSteel]]);
 recipes.addShaped(VibrantalloySeeds,[[VibrantAlloy, Sr, VibrantAlloy],[Sr, ST5, Sr],[VibrantAlloy, Sr, VibrantAlloy]]);
+
+recipes.addShaped(<mysticalagriculture:soulstone:3>[[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>],[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>],[null, null, null]]);
+recipes.addShaped(<mysticalagriculture:soulstone:3>[[null, null, null],[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>],[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>]]);
+recipes.addShaped(<mysticalagriculture:soulstone:3>[[null, null, null],[<mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>, null],[<mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>, null]]);
