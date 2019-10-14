@@ -443,6 +443,10 @@
     {
       "item": "botania:manaresource|23",
       "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer|0",
+      "emc": 0
     }
   ]
 }
