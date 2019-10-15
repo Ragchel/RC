@@ -15,7 +15,7 @@ val Cobalt = <tconstruct:ingots>; val Ardite = <tconstruct:ingots:1>; val Manyul
 val ElecSteel = <enderio:item_alloy_ingot>; val EnerAlloy = <enderio:item_alloy_ingot:1>; val VibrantAlloy = <enderio:item_alloy_ingot:2>; val RedAlloy = <enderio:item_alloy_ingot:3>; val ConIron = <enderio:item_alloy_ingot:4>;
 val DarkSteel = <enderio:item_alloy_ingot:6>; val Soul = <enderio:item_alloy_ingot:7>; val EndSteel = <enderio:item_alloy_ingot:8>; val Grainf = <enderio:item_material:20>; 
 /*ThaumCraft*/
-val Thaumium = <thaumcraft:ingot>; val Brass = <thaumcraft:ingot:2>; val QuickSilver = <thaumcraft:quicksilver>; val Amber = <thaumcraft:amber>;
+val Thaumium = <thaumcraft:ingot>; val Brass = <thaumcraft:ingot:2>; val QuickSilver = <thaumcraft:quicksilver>; val Amber = <thaumcraft:amber>; val VoidMetal = <thaumcraft:ingot:1>;
 /*Thermal Foundation*/
 val Tin = <thermalfoundation:material:129>; val Copper = <thermalfoundation:material:128>; val Silver = <thermalfoundation:material:130>; val Lead = <thermalfoundation:material:131>; val Aluminum = <thermalfoundation:material:132>;
 val Nickel = <thermalfoundation:material:133>; val Platinum = <thermalfoundation:material:134>; val Iridium = <thermalfoundation:material:135>; val Mithril = <thermalfoundation:material:136>; val Steel = <thermalfoundation:material:160>;
@@ -24,7 +24,8 @@ val Lumium = <thermalfoundation:material:166>; val Enderium = <thermalfoundation
 /*Mystical Agriculture*/
 val If = <mysticalagriculture:crafting>; val Pr = <mysticalagriculture:crafting:1>; val It = <mysticalagriculture:crafting:2>; val Su = <mysticalagriculture:crafting:3>; val Sr = <mysticalagriculture:crafting:4>; val Ps = <mysticalagriculture:crafting:5>;
 val NatureCluster = <mysticalagriculture:crafting:6>; val DyeCluster = <mysticalagriculture:crafting:7>; val End = <mysticalagriculture:crafting:9>; val BCS = <mysticalagriculture:crafting:16>; val T1CS = <mysticalagriculture:crafting:17>;
-val T2CS = <mysticalagriculture:crafting:18>; val T3CS = <mysticalagriculture:crafting:19>; val T4CS = <mysticalagriculture:crafting:20>; val T5CS = <mysticalagriculture:crafting:21>;
+val T2CS = <mysticalagriculture:crafting:18>; val T3CS = <mysticalagriculture:crafting:19>; val T4CS = <mysticalagriculture:crafting:20>; val T5CS = <mysticalagriculture:crafting:21>; val SoulStone = <mysticalagriculture:soulstone:0>;
+val SoulStoneBricks = <mysticalagriculture:soulstone:3>;
 /*Mob Chunks*/
 /*Base chunks*/
 val T1MC = <mysticalagriculture:chunk>; val T2MC = <mysticalagriculture:chunk:1>; val T3MC = <mysticalagriculture:chunk:2>; val T4MC = <mysticalagriculture:chunk:3>; val T5MC = <mysticalagriculture:chunk:4>; val ExpC = <mysticalagriculture:chunk:5>;
@@ -175,7 +176,7 @@ recipes.addShaped(AmberSeeds,[[Amber, Su, Amber],[Su, ST4, Su],[Amber, Su, Amber
 recipes.addShaped(DarkSteelSeeds,[[DarkSteel, Su, DarkSteel],[Su, ST4, Su],[DarkSteel, Su, DarkSteel]]);
 recipes.addShaped(SoulariumSeeds,[[Soul, Su, Soul],[Su, ST4, Su],[Soul, Su, Soul]]);
 recipes.addShaped(CobaltSeeds,[[Cobalt, Su, Cobalt],[Su, ST4, Su],[Cobalt, Su, Cobalt]]);
-recipes.addShaped(VoidMetalSeeds,[[<thaumcraft:ingot:1>, Su, <thaumcraft:ingot:1>],[Su, ST4, Su],[<thaumcraft:ingot:1>, Su, <thaumcraft:ingot:1>]]);
+recipes.addShaped(VoidMetalSeeds,[[VoidMetal, Su, VoidMetal],[Su, ST4, Su],[VoidMetal, Su, VoidMetal]]);
 recipes.addShaped(EnergeticAlloySeeds,[[EnerAlloy, Su, EnerAlloy],[Su, ST4, Su],[EnerAlloy, Su, EnerAlloy]]);
 recipes.addShaped(PulsatingIronSeeds,[[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>],[Su, ST4, Su],[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>]]);
 
@@ -191,6 +192,6 @@ recipes.addShaped(ManyullynSeeds,[[Manyullyn, Sr, Manyullyn],[Sr, ST5, Sr],[Many
 recipes.addShaped(EndSteelSeeds,[[EndSteel, Sr, EndSteel],[Sr, ST5, Sr],[EndSteel, Sr, EndSteel]]);
 recipes.addShaped(VibrantalloySeeds,[[VibrantAlloy, Sr, VibrantAlloy],[Sr, ST5, Sr],[VibrantAlloy, Sr, VibrantAlloy]]);
 
-recipes.addShaped(<mysticalagriculture:soulstone:3>,[[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>],[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>],[null, null, null]]);
-recipes.addShaped(<mysticalagriculture:soulstone:3>,[[null, null, null],[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>],[null, <mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>]]);
-recipes.addShaped(<mysticalagriculture:soulstone:3>,[[null, null, null],[<mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>, null],[<mysticalagriculture:soulstone:0>, <mysticalagriculture:soulstone:0>, null]]);
+recipes.addShaped(SoulStoneBricks,[[null, SoulStone, SoulStone],[null, SoulStone, SoulStone],[null, null, null]]);
+recipes.addShaped(SoulStoneBricks,[[null, null, null],[null, SoulStone, SoulStone],[null, SoulStone, SoulStone]]);
+recipes.addShaped(SoulStoneBricks,[[null, null, null],[SoulStone, SoulStone, null],[SoulStone, SoulStone, null]]);
