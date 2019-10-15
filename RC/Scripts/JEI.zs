@@ -19,11 +19,13 @@ static removeAndHideIngredients as IIngredient[] = [
 	<projectex:collector:8>, <projectex:collector:9>, <projectex:collector:10>, <projectex:collector:11>, <projectex:collector:12>, <projectex:collector:13>, <projectex:collector:14>, <projectex:collector:15>,
 	<projectex:relay>, <projectex:relay:1>, <projectex:relay:2>, <projectex:relay:3>, <projectex:relay:4>, <projectex:relay:5>, <projectex:relay:6>, <projectex:relay:7>,
 	<projectex:relay:8>, <projectex:relay:9>, <projectex:relay:10>, <projectex:relay:11>, <projectex:relay:12>, <projectex:relay:13>, <projectex:relay:14>, <projectex:relay:15>,
-	<projectex:compressed_collector>, <projectex:compressed_collector:1>, <projectex:compressed_collector:2>, <projectex:compressed_collector:3>, <projectex:compressed_collector:4>, <projectex:compressed_collector:5>,	<projectex:compressed_collector:6>, <projectex:compressed_collector:7>,
+	<projectex:compressed_collector:0>, <projectex:compressed_collector:1>, <projectex:compressed_collector:2>, <projectex:compressed_collector:3>, <projectex:compressed_collector:4>, <projectex:compressed_collector:5>,	<projectex:compressed_collector:6>, <projectex:compressed_collector:7>,
 	<projectex:compressed_collector:8>,	<projectex:compressed_collector:9>,	<projectex:compressed_collector:10>, <projectex:compressed_collector:11>, <projectex:compressed_collector:12>, <projectex:compressed_collector:13>, <projectex:compressed_collector:14>, <projectex:compressed_collector:15>,
 	<projectex:power_flower>, <projectex:power_flower:1>, <projectex:power_flower:2>, <projectex:power_flower:3>, <projectex:power_flower:4>, <projectex:power_flower:5>, <projectex:power_flower:6>, <projectex:power_flower:7>,
 	<projectex:power_flower:8>, <projectex:power_flower:9>, <projectex:power_flower:10>, <projectex:power_flower:11>, <projectex:power_flower:12>, <projectex:power_flower:13>, <projectex:power_flower:14>, <projectex:power_flower:15>,
-	<ic2:te>, <worldcontrol:image_card>, <worldcontrol:info_panel_advanced>, <enderio:block_decoration1>, <enderio:block_decoration2>, <enderio:block_decoration3>,
+	<ic2:te>, <worldcontrol:image_card>, <worldcontrol:info_panel_advanced>, <enderio:block_decoration1>, <enderio:block_decoration2>, <enderio:block_decoration3>, <projectex:collector:3>, <projectex:collector:4>,
+	<projectex:collector:5>, <projectex:collector:6>, <projectex:collector:7>, <projectex:collector:8>, <projectex:collector:9>, <projectex:collector:10>, <projectex:collector:11>, <projectex:collector:12>,
+	<projectex:collector:13>, <projectex:collector:14>, <projectex:collector:15>, <equivadditions:collector_mk4>,
 ];
 function init() {
 	for ingredient in removeAndHideIngredients {JEI.removeAndHide(ingredient);}}
