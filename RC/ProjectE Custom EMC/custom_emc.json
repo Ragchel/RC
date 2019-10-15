@@ -447,6 +447,18 @@
     {
       "item": "mysticalagriculture:mystical_fertilizer|0",
       "emc": 0
+    },
+    {
+      "item": "botania:manaresource|1",
+      "emc": 0
+    },
+    {
+      "item": "botania:manaresource|2",
+      "emc": 0
+    },
+    {
+      "item": "botania:manaresource|16",
+      "emc": 0
     }
   ]
 }
