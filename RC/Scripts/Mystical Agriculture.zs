@@ -90,7 +90,7 @@ recipes.remove(ElectricalSteelSeeds); recipes.remove(ArditeSeeds); recipes.remov
 recipes.remove(GlowstoneSeeds); recipes.remove(ExpSeeds); recipes.remove(LapisSeeds); recipes.remove(EndermanSeeds); recipes.remove(GhastSeeds); recipes.remove(BlazeSeeds); recipes.remove(MithrilSeeds); recipes.remove(LumiumSeeds);
 recipes.remove(SignalumSeeds); recipes.remove(AmberSeeds); recipes.remove(DarkSteelSeeds); recipes.remove(SoulariumSeeds); recipes.remove(CobaltSeeds); recipes.remove(VoidMetalSeeds); recipes.remove(EnergeticAlloySeeds);
 recipes.remove(PulsatingIronSeeds); recipes.remove(DiamondSeeds); recipes.remove(EmeraldSeeds); recipes.remove(WitherSkeletonSeeds); recipes.remove(IridiumSeeds); recipes.remove(PlatinumSeeds);
-recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(EndSteelSeeds); recipes.remove(VibrantalloySeeds);
+recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(EndSteelSeeds); recipes.remove(VibrantalloySeeds); recipes.remove(MFS);
 
 /*Crafting*/
 /*Tier 1*/
