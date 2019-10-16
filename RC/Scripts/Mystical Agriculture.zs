@@ -25,7 +25,7 @@ val Lumium = <thermalfoundation:material:166>; val Enderium = <thermalfoundation
 val If = <mysticalagriculture:crafting>; val Pr = <mysticalagriculture:crafting:1>; val It = <mysticalagriculture:crafting:2>; val Su = <mysticalagriculture:crafting:3>; val Sr = <mysticalagriculture:crafting:4>; val Ps = <mysticalagriculture:crafting:5>;
 val NatureCluster = <mysticalagriculture:crafting:6>; val DyeCluster = <mysticalagriculture:crafting:7>; val End = <mysticalagriculture:crafting:9>; val BCS = <mysticalagriculture:crafting:16>; val T1CS = <mysticalagriculture:crafting:17>;
 val T2CS = <mysticalagriculture:crafting:18>; val T3CS = <mysticalagriculture:crafting:19>; val T4CS = <mysticalagriculture:crafting:20>; val T5CS = <mysticalagriculture:crafting:21>; val SoulStone = <mysticalagriculture:soulstone:0>;
-val SoulStoneBricks = <mysticalagriculture:soulstone:3>;
+val SoulStoneBricks = <mysticalagriculture:soulstone:3>; val MFC = <mysticalagriculture:crafting:10>; val MFS = <mysticalagriculture:mystical_flower_seeds>;
 /*Mob Chunks*/
 /*Base chunks*/
 val T1MC = <mysticalagriculture:chunk>; val T2MC = <mysticalagriculture:chunk:1>; val T3MC = <mysticalagriculture:chunk:2>; val T4MC = <mysticalagriculture:chunk:3>; val T5MC = <mysticalagriculture:chunk:4>; val ExpC = <mysticalagriculture:chunk:5>;
@@ -123,6 +123,7 @@ recipes.addShaped(SiliconSeeds,[[Silicon, Pr, Silicon],[Pr, ST2, Pr],[Silicon, P
 recipes.addShaped(AlBrassSeeds,[[AlumBrass, Pr, AlumBrass],[Pr, ST2, Pr],[AlumBrass, Pr, AlumBrass]]);
 recipes.addShaped(ApatiteSeeds,[[Apatite, Pr, Apatite],[Pr, ST2, Pr],[Apatite, Pr, Apatite]]);
 recipes.addShaped(GrainfSeeds,[[Grainf, Pr, Grainf],[Pr, ST2, Pr],[Grainf, Pr, Grainf]]);
+recipes.addShaped(MFS,[[MFC, Pr, MFC],[Pr, ST2, Pr],[MFC, Pr, MFC]]);
 
 /*Tier 3*/
 recipes.addShaped(ST3,[[Ps, It, Ps],[It, ST2, It],[Ps, It, Ps]]);
