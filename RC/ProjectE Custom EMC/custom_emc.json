@@ -459,6 +459,158 @@
     {
       "item": "botania:manaresource|16",
       "emc": 0
+    },
+    {
+      "item": "minecraft:experience_bottle|0",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_solidified_experience|0",
+      "emc": 0
+    },
+    {
+      "item": "railcraft:generic|9",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_quarried|5",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_quarried|4",
+      "emc": 208
+    },
+    {
+      "item": "railcraft:generic|8",
+      "emc": 16
+    },
+    {
+      "item": "railcraft:brick_abyssal|5",
+      "emc": 16
+    },
+    {
+      "item": "projectred-exploration:stone|3",
+      "emc": 16
+    },
+    {
+      "item": "ic2:resource|0",
+      "emc": 16
+    },
+    {
+      "item": "enderio:block_cap_bank|1",
+      "emc": 0
+    },
+    {
+      "item": "enderio:block_cap_bank|2",
+      "emc": 0
+    },
+    {
+      "item": "enderio:block_cap_bank|3",
+      "emc": 0
+    },
+    {
+      "item": "botania:manaresource|9",
+      "emc": 0
+    },
+    {
+      "item": "botania:livingrock|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:livingwood|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:dye|7",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|5",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|0",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|9",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|10",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|11",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|12",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|13",
+      "emc": 16
+    },
+    {
+      "item": "botania:dye|15",
+      "emc": 16
+    },
+    {
+      "item": "botania:storage|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:storage|1",
+      "emc": 0
+    },
+    {
+      "item": "botania:storage|2",
+      "emc": 0
+    },
+    {
+      "item": "botania:storage|3",
+      "emc": 0
+    },
+    {
+      "item": "botania:storage|4",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|5",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|7",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|9",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|10",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|11",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|12",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|13",
+      "emc": 0
+    },
+    {
+      "item": "botania:petal|15",
+      "emc": 0
     }
   ]
 }
