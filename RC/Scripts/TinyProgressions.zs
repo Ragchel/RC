@@ -1,5 +1,5 @@
 /*TinyProgressions.zs*/
-recipes.remove (<tp:stone_helmet>);
+recipes.remove (<tp:stone_helmet>); recipes.remove(<tp:bams_pizza>);
 
 recipes.addShaped(<tp:stone_helmet>,
 [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
