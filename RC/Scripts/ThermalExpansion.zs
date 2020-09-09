@@ -1,6 +1,5 @@
-/*Thermal Expansion.zs*/
+/*Thermal Foundation.zs*/
 
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:iron_leggings>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand:1>, <minecraft:iron_leggings>);
+recipes.remove(<thermalfoundation:tool.shovel_steel>);
 
 /*doesnt work?*/
