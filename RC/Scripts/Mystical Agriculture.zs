@@ -97,7 +97,8 @@ recipes.remove(PulsatingIronSeeds); recipes.remove(DiamondSeeds); recipes.remove
 recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(EndSteelSeeds); recipes.remove(VibrantalloySeeds); recipes.remove(MFS); recipes.remove(RubberSeeds); recipes.remove(<mysticalagriculture:manasteel_seeds>);
 recipes.remove(<mysticalagriculture:ruby_seeds>); recipes.remove(<mysticalagriculture:sapphire_seeds>); recipes.remove(<mysticalagriculture:peridot_seeds>); recipes.remove(<mysticalagriculture:elementium_seeds>); recipes.remove(<mysticalagriculture:osmium_seeds>);
 recipes.remove(<mysticalagriculture:uranium_seeds>); recipes.remove(<mysticalagriculture:terrasteel_seeds>); recipes.remove(<mysticalagriculture:uranium_238_seeds>); recipes.remove(<mysticalagriculture:iridium_ore_seeds>);
-recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>); recipes.remove(<mysticalagriculture:refined_obsidian_seeds>); recipes.remove(<mysticalagriculture:electrotine_seeds>);
+recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>); recipes.remove(<mysticalagriculture:refined_obsidian_seeds>); recipes.remove(<mysticalagriculture:electrotine_seeds>); recipes.remove(<mysticalagriculture:alumite_seeds>);
+recipes.remove(<mysticalagradditions:dragon_egg_seeds>); recipes.remove(<mysticalagradditions:nether_star_seeds>); recipes.remove(<mysticalagradditions:insanium>);
 
 /*Crafting*/
 /*Tier 1*/
@@ -197,6 +198,7 @@ recipes.addShaped(<mysticalagriculture:peridot_seeds>,[[<projectred-core:resourc
 recipes.addShaped(<mysticalagriculture:elementium_seeds>,[[<botania:manaresource:7>, Su, <botania:manaresource:7>],[Su, ST4, Su],[<botania:manaresource:7>, Su, <botania:manaresource:7>]]);
 recipes.addShaped(<mysticalagriculture:osmium_seeds>,[[<mekanism:ingot:1>, Su, <mekanism:ingot:1>],[Su, ST4, Su],[<mekanism:ingot:1>, Su, <mekanism:ingot:1>]]);
 recipes.addShaped(<mysticalagriculture:glowstone_ingot_seeds>,[[<mekanism:ingot:3>, Su, <mekanism:ingot:3>],[Su, ST4, Su],[<mekanism:ingot:3>, Su, <mekanism:ingot:3>]]);
+recipes.addShaped(<mysticalagriculture:alumite_seeds>,[[<plustic:alumiteingot>, Su, <plustic:alumiteingot>],[Su, ST4, Su],[<plustic:alumiteingot>, Su, <plustic:alumiteingot>]]);
 
 /*Tier 5*/
 recipes.addShaped(ST5,[[Ps, Sr, Ps],[Sr, ST4, Sr],[Ps, Sr, Ps]]);
@@ -214,6 +216,8 @@ recipes.addShaped(<mysticalagriculture:terrasteel_seeds>,[[<botania:manaresource
 recipes.addShaped(<mysticalagriculture:uranium_238_seeds>,[[<ic2:nuclear:2>, Sr, <ic2:nuclear:2>],[Sr, ST5, Sr],[<ic2:nuclear:2>, Sr, <ic2:nuclear:2>]]);
 recipes.addShaped(<mysticalagriculture:iridium_ore_seeds>,[[<ic2:misc_resource:1>, Sr, <ic2:misc_resource:1>],[Sr, ST5, Sr],[<ic2:misc_resource:1>, Sr, <ic2:misc_resource:1>]]);
 recipes.addShaped(<mysticalagriculture:refined_obsidian_seeds>,[[<mekanism:ingot>, Sr, <mekanism:ingot>],[Sr, ST5, Sr],[<mekanism:ingot>, Sr, <mekanism:ingot>]]);
+recipes.addShaped(<mysticalagradditions:dragon_egg_seeds> [[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>],[Sr, ST5, Sr],[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>]]);
+recipes.addShaped(<mysticalagradditions:nether_star_seeds> [[<minecraft:nether_star>, Sr, <minecraft:nether_star>],[Sr, ST5, Sr],[<minecraft:nether_star>, Sr, <minecraft:nether_star>]]);
 
 recipes.addShaped(SoulStoneBricks,[[null, SoulStone, SoulStone],[null, SoulStone, SoulStone],[null, null, null]]);
 recipes.addShaped(SoulStoneBricks,[[null, null, null],[null, SoulStone, SoulStone],[null, SoulStone, SoulStone]]);
