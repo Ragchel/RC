@@ -216,8 +216,8 @@ recipes.addShaped(<mysticalagriculture:terrasteel_seeds>,[[<botania:manaresource
 recipes.addShaped(<mysticalagriculture:uranium_238_seeds>,[[<ic2:nuclear:2>, Sr, <ic2:nuclear:2>],[Sr, ST5, Sr],[<ic2:nuclear:2>, Sr, <ic2:nuclear:2>]]);
 recipes.addShaped(<mysticalagriculture:iridium_ore_seeds>,[[<ic2:misc_resource:1>, Sr, <ic2:misc_resource:1>],[Sr, ST5, Sr],[<ic2:misc_resource:1>, Sr, <ic2:misc_resource:1>]]);
 recipes.addShaped(<mysticalagriculture:refined_obsidian_seeds>,[[<mekanism:ingot>, Sr, <mekanism:ingot>],[Sr, ST5, Sr],[<mekanism:ingot>, Sr, <mekanism:ingot>]]);
-recipes.addShaped(<mysticalagradditions:dragon_egg_seeds> [[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>],[Sr, ST5, Sr],[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>]]);
-recipes.addShaped(<mysticalagradditions:nether_star_seeds> [[<minecraft:nether_star>, Sr, <minecraft:nether_star>],[Sr, ST5, Sr],[<minecraft:nether_star>, Sr, <minecraft:nether_star>]]);
+recipes.addShaped(<mysticalagradditions:dragon_egg_seeds>,[[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>],[Sr, ST5, Sr],[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>]]);
+recipes.addShaped(<mysticalagradditions:nether_star_seeds>,[[<minecraft:nether_star>, Sr, <minecraft:nether_star>],[Sr, ST5, Sr],[<minecraft:nether_star>, Sr, <minecraft:nether_star>]]); /*This is causing 2 errors for no reason? loads fine tho? great*/
 
 recipes.addShaped(SoulStoneBricks,[[null, SoulStone, SoulStone],[null, SoulStone, SoulStone],[null, null, null]]);
 recipes.addShaped(SoulStoneBricks,[[null, null, null],[null, SoulStone, SoulStone],[null, SoulStone, SoulStone]]);
