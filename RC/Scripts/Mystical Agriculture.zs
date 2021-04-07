@@ -15,9 +15,6 @@ val Silicon = <refinedstorage:silicon>; val QuartzIron = <refinedstorage:quartz_
 val BlackQuartz = <actuallyadditions:item_misc:5>;
 /*Tconstruct*/
 val Cobalt = <tconstruct:ingots>; val Ardite = <tconstruct:ingots:1>; val Manyullyn = <tconstruct:ingots:2>; val KnightSlime = <tconstruct:ingots:3>; val AlumBrass = <tconstruct:ingots:5>;
-/*Enderio*/
-val ElecSteel = <enderio:item_alloy_ingot>; val EnerAlloy = <enderio:item_alloy_ingot:1>; val VibrantAlloy = <enderio:item_alloy_ingot:2>; val RedAlloy = <enderio:item_alloy_ingot:3>; val ConIron = <enderio:item_alloy_ingot:4>;
-val DarkSteel = <enderio:item_alloy_ingot:6>; val Soul = <enderio:item_alloy_ingot:7>; val EndSteel = <enderio:item_alloy_ingot:8>; val Grainf = <enderio:item_material:20>; 
 /*ThaumCraft*/
 val Thaumium = <thaumcraft:ingot>; val Brass = <thaumcraft:ingot:2>; val QuickSilver = <thaumcraft:quicksilver>; val Amber = <thaumcraft:amber>; val VoidMetal = <thaumcraft:ingot:1>;
 /*Thermal Foundation*/
@@ -217,7 +214,7 @@ recipes.addShaped(<mysticalagriculture:uranium_238_seeds>,[[<ic2:nuclear:2>, Sr,
 recipes.addShaped(<mysticalagriculture:iridium_ore_seeds>,[[<ic2:misc_resource:1>, Sr, <ic2:misc_resource:1>],[Sr, ST5, Sr],[<ic2:misc_resource:1>, Sr, <ic2:misc_resource:1>]]);
 recipes.addShaped(<mysticalagriculture:refined_obsidian_seeds>,[[<mekanism:ingot>, Sr, <mekanism:ingot>],[Sr, ST5, Sr],[<mekanism:ingot>, Sr, <mekanism:ingot>]]);
 recipes.addShaped(<mysticalagradditions:dragon_egg_seeds>,[[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>],[Sr, ST5, Sr],[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>]]);
-recipes.addShaped(<mysticalagradditions:nether_star_seeds>,[[<minecraft:nether_star>, Sr, <minecraft:nether_star>],[Sr, ST5, Sr],[<minecraft:nether_star>, Sr, <minecraft:nether_star>]]); /*This is causing 2 errors for no reason? loads fine tho? great*/
+recipes.addShaped(<mysticalagradditions:nether_star_seeds>,[[<minecraft:nether_star>, Sr, <minecraft:nether_star>],[Sr, ST5, Sr],[<minecraft:nether_star>, Sr, <minecraft:nether_star>]]);
 
 recipes.addShaped(SoulStoneBricks,[[null, SoulStone, SoulStone],[null, SoulStone, SoulStone],[null, null, null]]);
 recipes.addShaped(SoulStoneBricks,[[null, null, null],[null, SoulStone, SoulStone],[null, SoulStone, SoulStone]]);
