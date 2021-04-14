@@ -9,3 +9,5 @@ Make an issue over at https://github.com/Tntdestroyr/RC/issues
 Include a screenshot of the current recipe
 the id of the item you are trying to craft
 detailed issue of what is wrong about it
+
+(https://trello.com/b/rk6t5c6w/modpack)
