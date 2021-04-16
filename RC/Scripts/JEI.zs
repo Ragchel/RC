@@ -12,7 +12,7 @@ static removeAndHideIngredients as IIngredient[] = [
 	<mysticalagriculture:invar_crop>, <mysticalagriculture:mithril_crop>, <mysticalagriculture:uranium_crop>, <mysticalagriculture:platinum_crop>, <mysticalagriculture:iridium_crop>, <mysticalagriculture:amber_crop>, <mysticalagriculture:blizz_crop>, <mysticalagriculture:blitz_crop>,
 	<mysticalagriculture:basalz_crop>, <mysticalagriculture:signalum_crop>, <mysticalagriculture:lumium_crop>, <mysticalagriculture:enderium_crop>, <mysticalagriculture:aluminum_brass_crop>, <mysticalagriculture:knightslime_crop>, <mysticalagriculture:ardite_crop>,
 	<mysticalagriculture:cobalt_crop>, <mysticalagriculture:manyullyn_crop>, <mysticalagriculture:quicksilver_crop>, <mysticalagriculture:thaumium_crop>, <mysticalagriculture:void_metal_crop>, <mysticalagriculture:uranium_238_crop>, <mysticalagriculture:iridium_ore_crop>,
-	<mysticalagriculture:black_quartz_crop>, <ic2:te>, <worldcontrol:image_card>, <worldcontrol:info_panel_advanced>,
+	<mysticalagriculture:black_quartz_crop>, <ic2:te>, <worldcontrol:image_card>, <worldcontrol:info_panel_advanced>, <projecte:collector_mk1>, <projecte:collector_mk2>, <projecte:collector_mk3>,
 ];
 function init() {
 	for ingredient in removeAndHideIngredients {JEI.removeAndHide(ingredient);}}
