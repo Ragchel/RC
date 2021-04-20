@@ -79,12 +79,12 @@ recipes.remove(SheepSeeds); recipes.remove(CowSeeds); recipes.remove(ChickenSeed
 recipes.remove(GoldSeeds); recipes.remove(ObsidianSeeds); recipes.remove(RedstoneSeeds); recipes.remove(QuartzSeeds); recipes.remove(IronSeeds); recipes.remove(RabbitSeeds);
 recipes.remove(GuardianSeeds); recipes.remove(SkeletonSeeds); recipes.remove(CreeperSeeds); recipes.remove(SpiderSeeds); recipes.remove(SilverSeeds); recipes.remove(BrassSeeds); recipes.remove(BronzeSeeds); recipes.remove(TinSeeds);
 recipes.remove(SaltPeterSeeds); recipes.remove(InvarSeeds); recipes.remove(ElectrumSeeds); recipes.remove(ConstantanSeeds); recipes.remove(NickelSeeds); recipes.remove(SteelSeeds); recipes.remove(LeadSeeds); recipes.remove(KnightSlimeSeeds);
-recipes.remove(BasalzSeeds); recipes.remove(BlitzSeeds); recipes.remove(BlizzSeeds); recipes.remove(mysticalagriculture:grains_of_infinity_seeds)
-recipes.remove(ArditeSeeds); recipes.remove(BlackQuartzSeeds); recipes.remove(ThaumiumSeeds); recipes.remove(QuickSilverSeeds); recipes.remove(EndSeeds);
+recipes.remove(BasalzSeeds); recipes.remove(BlitzSeeds); recipes.remove(BlizzSeeds); recipes.remove(mysticalagriculture:grains_of_infinity_seeds); recipes.remove(<mysticalagriculture:silicon_seeds>);
+recipes.remove(ArditeSeeds); recipes.remove(BlackQuartzSeeds); recipes.remove(ThaumiumSeeds); recipes.remove(QuickSilverSeeds); recipes.remove(EndSeeds); recipes.remove(<mysticalagriculture:malachite_seeds>);
 recipes.remove(GlowstoneSeeds); recipes.remove(ExpSeeds); recipes.remove(LapisSeeds); recipes.remove(EndermanSeeds); recipes.remove(GhastSeeds); recipes.remove(BlazeSeeds); recipes.remove(MithrilSeeds); recipes.remove(LumiumSeeds);
-recipes.remove(SignalumSeeds); recipes.remove(AmberSeeds); recipes.remove(CobaltSeeds); recipes.remove(VoidMetalSeeds);
+recipes.remove(SignalumSeeds); recipes.remove(AmberSeeds); recipes.remove(CobaltSeeds); recipes.remove(VoidMetalSeeds); recipes.remove(<mysticalagriculture:fluix_seeds>)
 recipes.remove(DiamondSeeds); recipes.remove(EmeraldSeeds); recipes.remove(WitherSkeletonSeeds); recipes.remove(IridiumSeeds); recipes.remove(PlatinumSeeds);
-recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(RubberSeeds);
+recipes.remove(EnderiumSeeds); recipes.remove(ManyullynSeeds); recipes.remove(RubberSeeds); recipes.remove(mysticalagriculture:dark_steel_seeds); recipes.remove(<mysticalagriculture:topaz_seeds>);
 recipes.remove(<mysticalagriculture:ruby_seeds>); recipes.remove(<mysticalagriculture:sapphire_seeds>); recipes.remove(<mysticalagriculture:peridot_seeds>); recipes.remove(<mysticalagriculture:osmium_seeds>);
 recipes.remove(<mysticalagriculture:uranium_seeds>); recipes.remove(<mysticalagriculture:uranium_238_seeds>); recipes.remove(<mysticalagriculture:iridium_ore_seeds>);
 recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>); recipes.remove(<mysticalagriculture:refined_obsidian_seeds>); recipes.remove(<mysticalagriculture:electrotine_seeds>); recipes.remove(<mysticalagriculture:alumite_seeds>);
@@ -121,6 +121,8 @@ recipes.addShaped(AlBrassSeeds,[[AlumBrass, Pr, AlumBrass],[Pr, ST2, Pr],[AlumBr
 recipes.addShaped(RubberSeeds,[[Rubber, Pr, Rubber],[Pr, ST2, Pr],[Rubber, Pr, Rubber]]);
 recipes.addShaped(RubberSeeds,[[Plastic, Pr, Plastic],[Pr, ST2, Pr],[Plastic, Pr, Plastic]]);
 recipes.addShaped(mysticalagriculture:grains_of_infinity_seeds, [[GoI, Pr, GoI],[Pr, ST2, Pr],[GoI, Pr, GoI]]);
+recipes.addShaped(<mysticalagriculture:silicon_seeds>,[[<appliedenergistics2:material:5>, Pr, <appliedenergistics2:material:5>],[Pr, ST2, Pr],[<appliedenergistics2:material:5>, Pr, <appliedenergistics2:material:5>]]);
+
 
 /*Tier 3*/
 recipes.addShaped(ST3,[[Ps, It, Ps],[It, ST2, It],[Ps, It, Ps]]);
@@ -176,6 +178,11 @@ recipes.addShaped(<mysticalagriculture:peridot_seeds>,[[<projectred-core:resourc
 recipes.addShaped(<mysticalagriculture:osmium_seeds>,[[<mekanism:ingot:1>, Su, <mekanism:ingot:1>],[Su, ST4, Su],[<mekanism:ingot:1>, Su, <mekanism:ingot:1>]]);
 recipes.addShaped(<mysticalagriculture:glowstone_ingot_seeds>,[[<mekanism:ingot:3>, Su, <mekanism:ingot:3>],[Su, ST4, Su],[<mekanism:ingot:3>, Su, <mekanism:ingot:3>]]);
 recipes.addShaped(<mysticalagriculture:alumite_seeds>,[[<plustic:alumiteingot>, Su, <plustic:alumiteingot>],[Su, ST4, Su],[<plustic:alumiteingot>, Su, <plustic:alumiteingot>]]);
+recipes.addShaped(<mysticalagriculture:dark_steel_seeds>,[[<enderio:item_alloy_ingot:6>, Su, <enderio:item_alloy_ingot:6>],[Su, ST4, Su],[<enderio:item_alloy_ingot:6>, Su, <enderio:item_alloy_ingot:6>]]);
+recipes.addShaped(<mysticalagriculture:fluix_seeds>,[[<appliedenergistics2:material:7>, Su, <appliedenergistics2:material:7>],[Su, ST4, Su],[<appliedenergistics2:material:7>, Su, <appliedenergistics2:material:7>]]);
+recipes.addShaped(<mysticalagriculture:topaz_seeds>,[[<biomesoplenty:gem:3>, Su, <biomesoplenty:gem:3>],[Su, ST4, Su],[<biomesoplenty:gem:3>, Su, <biomesoplenty:gem:3>]]);
+recipes.addShaped(<mysticalagriculture:malachite_seeds>,[[<biomesoplenty:gem:5>, Su, <biomesoplenty:gem:5>],[Su, ST4, Su],[<biomesoplenty:gem:5>, Su, <biomesoplenty:gem:5>]]);
+
 
 /*Tier 5*/
 recipes.addShaped(ST5,[[Ps, Sr, Ps],[Sr, ST4, Sr],[Ps, Sr, Ps]]);
