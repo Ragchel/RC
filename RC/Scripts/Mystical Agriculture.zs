@@ -89,6 +89,13 @@ recipes.remove(<mysticalagriculture:ruby_seeds>); recipes.remove(<mysticalagricu
 recipes.remove(<mysticalagriculture:uranium_seeds>); recipes.remove(<mysticalagriculture:uranium_238_seeds>); recipes.remove(<mysticalagriculture:iridium_ore_seeds>);
 recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>); recipes.remove(<mysticalagriculture:refined_obsidian_seeds>); recipes.remove(<mysticalagriculture:electrotine_seeds>); recipes.remove(<mysticalagriculture:alumite_seeds>);
 recipes.remove(<mysticalagradditions:dragon_egg_seeds>); recipes.remove(<mysticalagradditions:nether_star_seeds>); recipes.remove(<mysticalagradditions:insanium>);
+recipes.remove(<mysticalagriculture:end_steel_seeds>); recipes.remove(<mysticalagriculture:electrical_steel_seeds>); recipes.remove(<mysticalagriculture:tanzanite_seeds>);
+recipes.remove(<mysticalagriculture:conductive_iron_seeds>); recipes.remove(<mysticalagriculture:redstone_alloy_seeds>);
+recipes.remove(<mysticalagriculture:soularium_seeds>); recipes.remove(<mysticalagriculture:pulsating_iron_seeds>); recipes.remove(<mysticalagriculture:energetic_alloy_seeds>); recipes.remove(<mysticalagriculture:vibrant_alloy_seeds>);
+recipes.remove(<mysticalagriculture:mystical_flower_seeds>); recipes.remove(<mysticalagriculture:manasteel_seeds>); recipes.remove(<mysticalagriculture:elementium_seeds>); recipes.remove(<mysticalagriculture:terrasteel_seeds>);
+recipes.remove(<mysticalagriculture:apatite_seeds>); recipes.remove(<mysticalagriculture:steeleaf_seeds>); recipes.remove(<mysticalagriculture:ironwood_seeds>); recipes.remove(<mysticalagriculture:knightmetal_seeds>);
+recipes.remove(<mysticalagriculture:fiery_ingot_seeds>); recipes.remove(<mysticalagriculture:slimy_bone_seeds>); recipes.remove(<mysticalagriculture:syrmorite_seeds>); recipes.remove(<mysticalagriculture:octine_seeds>);
+recipes.remove(<mysticalagriculture:valonite_seeds>); recipes.remove(<mysticalagriculture:ender_amethyst_seeds>); recipes.remove(<mysticalagriculture:sky_stone_seeds>); recipes.remove(<mysticalagriculture:certus_quartz_seeds>);
 
 /*Crafting*/
 /*Tier 1*/
@@ -122,7 +129,9 @@ recipes.addShaped(RubberSeeds,[[Rubber, Pr, Rubber],[Pr, ST2, Pr],[Rubber, Pr, R
 recipes.addShaped(RubberSeeds,[[Plastic, Pr, Plastic],[Pr, ST2, Pr],[Plastic, Pr, Plastic]]);
 recipes.addShaped(<mysticalagriculture:grains_of_infinity_seeds>,[[GoI, Pr, GoI],[Pr, ST2, Pr],[GoI, Pr, GoI]]);
 recipes.addShaped(<mysticalagriculture:silicon_seeds>,[[<appliedenergistics2:material:5>, Pr, <appliedenergistics2:material:5>],[Pr, ST2, Pr],[<appliedenergistics2:material:5>, Pr, <appliedenergistics2:material:5>]]);
-
+recipes.addShaped(<mysticalagriculture:mystical_flower_seeds>,[[<mysticalagriculture:crafting:10>, Pr, <mysticalagriculture:crafting:10>],[Pr, ST2, Pr],[<mysticalagriculture:crafting:10>, Pr, <mysticalagriculture:crafting:10>]]);
+recipes.addShaped(<mysticalagriculture:apatite_seeds>,[[<forestry:apatite>, Pr, <forestry:apatite>],[Pr, ST2, Pr],[<forestry:apatite>, Pr, <forestry:apatite>]]);
+recipes.addShaped(<mysticalagriculture:slimy_bone_seeds>,[[<thebetweenlands:items_misc:14>, Pr, <thebetweenlands:items_misc:14>],[Pr, ST2, Pr],[<thebetweenlands:items_misc:14>, Pr, <thebetweenlands:items_misc:14>]]);
 
 /*Tier 3*/
 recipes.addShaped(ST3,[[Ps, It, Ps],[It, ST2, It],[Ps, It, Ps]]);
@@ -156,6 +165,16 @@ recipes.addShaped(BlackQuartzSeeds,[[BlackQuartz, It, BlackQuartz],[It, ST3, It]
 recipes.addShaped(ThaumiumSeeds,[[Thaumium, It, Thaumium],[It, ST3, It],[Thaumium, It, Thaumium]]);
 recipes.addShaped(QuickSilverSeeds,[[QuickSilver, It, QuickSilver],[It, ST3, It],[QuickSilver, It, QuickSilver]]);
 recipes.addShaped(<mysticalagriculture:electrotine_seeds>,[[<projectred-core:resource_item:15>, It, <projectred-core:resource_item:15>],[It, ST3, It],[<projectred-core:resource_item:15>, It, <projectred-core:resource_item:15>]]);
+recipes.addShaped(<mysticalagriculture:electrical_steel_seeds>,[[<enderio:item_alloy_ingot:0>, It, <enderio:item_alloy_ingot:0>],[It, ST3, It],[<enderio:item_alloy_ingot:0>, It, <enderio:item_alloy_ingot:0>]]);
+recipes.addShaped(<mysticalagriculture:redstone_alloy_seeds>,[[<enderio:item_alloy_ingot:3>, It, <enderio:item_alloy_ingot:3>],[It, ST3, It],[<enderio:item_alloy_ingot:3>, It, <enderio:item_alloy_ingot:3>]]);
+recipes.addShaped(<mysticalagriculture:conductive_iron_seeds>,[[<enderio:item_alloy_ingot:4>, It, <enderio:item_alloy_ingot:4>],[It, ST3, It],[<enderio:item_alloy_ingot:4>, It, <enderio:item_alloy_ingot:4>]]);
+recipes.addShaped(<mysticalagriculture:manasteel_seeds>,[[<botania:manaresource:0>, It, <botania:manaresource:0>],[It, ST3, It],[<botania:manaresource:0>, It, <botania:manaresource:0>]]);
+recipes.addShaped(<mysticalagriculture:steeleaf_seeds>,[[<twilightforest:steeleaf_ingot>, It, <twilightforest:steeleaf_ingot>],[It, ST3, It],[<twilightforest:steeleaf_ingot>, It, <twilightforest:steeleaf_ingot>]]);
+recipes.addShaped(<mysticalagriculture:ironwood_seeds>,[[<twilightforest:ironwood_ingot>, It, <twilightforest:ironwood_ingot>],[It, ST3, It],[<twilightforest:ironwood_ingot>, It, <twilightforest:ironwood_ingot>]]);
+recipes.addShaped(<mysticalagriculture:syrmorite_seeds>,[[<thebetweenlands:items_misc:11>, It, <thebetweenlands:items_misc:11>],[It, ST3, It],[<thebetweenlands:items_misc:11>, It, <thebetweenlands:items_misc:11>]]);
+recipes.addShaped(<mysticalagriculture:octine_seeds>,[[<thebetweenlands:octine_ingot>, It, <thebetweenlands:octine_ingot>],[It, ST3, It],[<thebetweenlands:octine_ingot>, It, <thebetweenlands:octine_ingot>]]);
+recipes.addShaped(<mysticalagriculture:sky_stone_seeds>,[[<appliedenergistics2:sky_stone_block>, It, <appliedenergistics2:sky_stone_block>],[It, ST3, It],[<appliedenergistics2:sky_stone_block>, It, <appliedenergistics2:sky_stone_block>]]);
+recipes.addShaped(<mysticalagriculture:certus_quartz_seeds>,[[<appliedenergistics2:material:0>, It, <appliedenergistics2:material:0>],[It, ST3, It],[<appliedenergistics2:material:0>, It, <appliedenergistics2:material:0>]]);
 
 /*Tier 4*/
 recipes.addShaped(ST4,[[Ps, Su, Ps],[Su, ST3, Su],[Ps, Su, Ps]]);
@@ -182,7 +201,13 @@ recipes.addShaped(<mysticalagriculture:dark_steel_seeds>,[[<enderio:item_alloy_i
 recipes.addShaped(<mysticalagriculture:fluix_seeds>,[[<appliedenergistics2:material:7>, Su, <appliedenergistics2:material:7>],[Su, ST4, Su],[<appliedenergistics2:material:7>, Su, <appliedenergistics2:material:7>]]);
 recipes.addShaped(<mysticalagriculture:topaz_seeds>,[[<biomesoplenty:gem:3>, Su, <biomesoplenty:gem:3>],[Su, ST4, Su],[<biomesoplenty:gem:3>, Su, <biomesoplenty:gem:3>]]);
 recipes.addShaped(<mysticalagriculture:malachite_seeds>,[[<biomesoplenty:gem:5>, Su, <biomesoplenty:gem:5>],[Su, ST4, Su],[<biomesoplenty:gem:5>, Su, <biomesoplenty:gem:5>]]);
-
+recipes.addShaped(<mysticalagriculture:tanzanite_seeds>,[[<biomesoplenty:gem:4>, Su, <biomesoplenty:gem:4>],[Su, ST4, Su],[<biomesoplenty:gem:4>, Su, <biomesoplenty:gem:4>]]);
+recipes.addShaped(<mysticalagriculture:soularium_seeds>,[[<enderio:item_alloy_ingot:7>, Su, <enderio:item_alloy_ingot:7>],[Su, ST4, Su],[<enderio:item_alloy_ingot:7>, Su, <enderio:item_alloy_ingot:7>]]);
+recipes.addShaped(<mysticalagriculture:pulsating_iron_seeds>,[[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>],[Su, ST4, Su],[<enderio:item_alloy_ingot:5>, Su, <enderio:item_alloy_ingot:5>]]);
+recipes.addShaped(<mysticalagriculture:energetic_alloy_seeds>,[[<enderio:item_alloy_ingot:1>, Su, <enderio:item_alloy_ingot:1>],[Su, ST4, Su],[<enderio:item_alloy_ingot:1>, Su, <enderio:item_alloy_ingot:1>]]);
+recipes.addShaped(<mysticalagriculture:elementium_seeds>,[[<botania:manaresource:7>, Su, <botania:manaresource:7>],[Su, ST4, Su],[<botania:manaresource:7>, Su, <botania:manaresource:7>]]);
+recipes.addShaped(<mysticalagriculture:knightmetal_seeds>,[[<twilightforest:knightmetal_ingot>, Su, <twilightforest:knightmetal_ingot>],[Su, ST4, Su],[<twilightforest:knightmetal_ingot>, Su, <twilightforest:knightmetal_ingot>]]);
+recipes.addShaped(<mysticalagriculture:fiery_ingot_seeds>,[[<twilightforest:fiery_ingot>, Su, <twilightforest:fiery_ingot>],[Su, ST4, Su],[<twilightforest:fiery_ingot>, Su, <twilightforest:fiery_ingot>]]);
 
 /*Tier 5*/
 recipes.addShaped(ST5,[[Ps, Sr, Ps],[Sr, ST4, Sr],[Ps, Sr, Ps]]);
@@ -199,6 +224,11 @@ recipes.addShaped(<mysticalagriculture:iridium_ore_seeds>,[[<ic2:misc_resource:1
 recipes.addShaped(<mysticalagriculture:refined_obsidian_seeds>,[[<mekanism:ingot>, Sr, <mekanism:ingot>],[Sr, ST5, Sr],[<mekanism:ingot>, Sr, <mekanism:ingot>]]);
 recipes.addShaped(<mysticalagradditions:dragon_egg_seeds>,[[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>],[Sr, ST5, Sr],[<mysticalagradditions:stuff:2>, Sr, <mysticalagradditions:stuff:2>]]);
 recipes.addShaped(<mysticalagradditions:nether_star_seeds>,[[<minecraft:nether_star>, Sr, <minecraft:nether_star>],[Sr, ST5, Sr],[<minecraft:nether_star>, Sr, <minecraft:nether_star>]]);
+recipes.addShaped(<mysticalagriculture:end_steel_seeds>,[[<enderio:item_alloy_ingot:8>, Sr, <enderio:item_alloy_ingot:8>],[Sr, ST5, Sr],[<enderio:item_alloy_ingot:8>, Sr, <enderio:item_alloy_ingot:8>]]);
+recipes.addShaped(<mysticalagriculture:vibrant_alloy_seeds>,[[<enderio:item_alloy_ingot:2>, Sr, <enderio:item_alloy_ingot:2>],[Sr, ST5, Sr],[<enderio:item_alloy_ingot:2>, Sr, <enderio:item_alloy_ingot:2>]]);
+recipes.addShaped(<mysticalagriculture:terrasteel_seeds>,[[<botania:manaresource:4>, Sr, <botania:manaresource:4>],[Sr, ST5, Sr],[<botania:manaresource:4>, Sr, <botania:manaresource:4>]]);
+recipes.addShaped(<mysticalagriculture:ender_amethyst_seeds>,[[<biomesoplenty:gem:0>, Sr, <biomesoplenty:gem:0>],[Sr, ST5, Sr],[<biomesoplenty:gem:0>, Sr, <biomesoplenty:gem:0>]]);
+recipes.addShaped(<mysticalagriculture:valonite_seeds>,[[<thebetweenlands:items_misc:19>, Sr, <thebetweenlands:items_misc:19>],[Sr, ST5, Sr],[<thebetweenlands:items_misc:19>, Sr, <thebetweenlands:items_misc:19>]]);
 
 recipes.addShaped(SoulStoneBricks,[[null, SoulStone, SoulStone],[null, SoulStone, SoulStone],[null, null, null]]);
 recipes.addShaped(SoulStoneBricks,[[null, null, null],[null, SoulStone, SoulStone],[null, SoulStone, SoulStone]]);
